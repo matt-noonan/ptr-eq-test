@@ -1,0 +1,22 @@
+name:                ptr-eq-test
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/matt-noonan/ptr-eq-test#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Matt Noonan
+maintainer:          matt.noonan@gmail.com
+copyright:           (c) 2017 Matt Noonan
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable ptr-eq-test
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , ghc-prim
+  ghc-options:         -ddump-simpl -dsuppress-idinfo -dsuppress-type-applications -dsuppress-uniques -dsuppress-module-prefixes -ddump-cmm -ddump-stg

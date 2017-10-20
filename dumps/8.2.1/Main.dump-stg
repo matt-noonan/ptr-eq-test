@@ -1,0 +1,270 @@
+
+==================== Pre unarise: ====================
+2017-10-20 12:59:28.886145 UTC
+
+$trModule4 :: Addr# = "main"#;
+
+$trModule3 :: TrName = NO_CCS TrNameS! [$trModule4];
+
+$trModule2 :: Addr# = "Main"#;
+
+$trModule1 :: TrName = NO_CCS TrNameS! [$trModule2];
+
+$trModule :: Module = NO_CCS Module! [$trModule3 $trModule1];
+
+$krep :: KindRep = NO_CCS KindRepTyConApp! [$tcInt []];
+
+$tcBox2 :: Addr# = "Box"#;
+
+$tcBox1 :: TrName = NO_CCS TrNameS! [$tcBox2];
+
+$tcBox :: TyCon =
+    NO_CCS TyCon! [3762919943489504256##
+                   5463706964232835171##
+                   $trModule
+                   $tcBox1
+                   0#
+                   krep$*];
+
+$krep1 :: KindRep = NO_CCS KindRepTyConApp! [$tcBox []];
+
+$tc'Box1 :: KindRep = NO_CCS KindRepFun! [$krep $krep1];
+
+$tc'Box3 :: Addr# = "'Box"#;
+
+$tc'Box2 :: TrName = NO_CCS TrNameS! [$tc'Box3];
+
+$tc'Box :: TyCon =
+    NO_CCS TyCon! [2750483572331382518##
+                   11996112659716245982##
+                   $trModule
+                   $tc'Box2
+                   0#
+                   $tc'Box1];
+
+alfa :: [Int] = \u [] eftInt 0# 0#;
+
+lvl :: Addr# = "src/Main.hs:23:40-63|case"#;
+
+main4 :: Box = \u [] patError lvl;
+
+external2 :: Int = NO_CCS I#! [0#];
+
+main3 :: State# RealWorld -> (# State# RealWorld, Bool #) =
+    \r [s]
+        case noDuplicate# [s] of s' {
+          __DEFAULT ->
+              case alfa of {
+                [] -> badHead;
+                : x _ ->
+                    case x of wild1 {
+                      I# ds ->
+                          case ds of {
+                            __DEFAULT -> main4;
+                            0# ->
+                                case __pkg_ccall_GC base-4.10.0.0 [s'] of {
+                                  Unit# ds3 ->
+                                      let {
+                                        sat :: Bool =
+                                            \u []
+                                                case reallyUnsafePtrEquality# [wild1 external2] of {
+                                                  __DEFAULT -> False [];
+                                                  1# -> True [];
+                                                };
+                                      } in  (#,#) [ds3 sat];
+                                };
+                          };
+                    };
+              };
+        };
+
+main2 :: String =
+    \u []
+        case main3 realWorld# of {
+          (#,#) _ ipv1 ->
+              case ipv1 of {
+                False -> $fShowBool3;
+                True -> $fShowBool1;
+              };
+        };
+
+main1 :: State# RealWorld -> (# State# RealWorld, () #) =
+    \r [eta] hPutStr2 stdout main2 True eta;
+
+main :: IO () = \r [eta] main1 eta;
+
+main5 :: State# RealWorld -> (# State# RealWorld, () #) =
+    \r [eta] runMainIO1 main1 eta;
+
+main :: IO () = \r [eta] main5 eta;
+
+lvl1 :: Addr# = "src/Main.hs:27:40-63|case"#;
+
+external3 :: Box = \u [] patError lvl1;
+
+external1 :: State# RealWorld -> (# State# RealWorld, Bool #) =
+    \r [s]
+        case noDuplicate# [s] of s' {
+          __DEFAULT ->
+              case alfa of {
+                [] -> badHead;
+                : x _ ->
+                    case x of wild1 {
+                      I# ds ->
+                          case ds of {
+                            __DEFAULT -> external3;
+                            0# ->
+                                case __pkg_ccall_GC base-4.10.0.0 [s'] of {
+                                  Unit# ds3 ->
+                                      let {
+                                        sat :: Bool =
+                                            \u []
+                                                case reallyUnsafePtrEquality# [wild1 external2] of {
+                                                  __DEFAULT -> False [];
+                                                  1# -> True [];
+                                                };
+                                      } in  (#,#) [ds3 sat];
+                                };
+                          };
+                    };
+              };
+        };
+
+external :: Bool =
+    \u [] case external1 realWorld# of { (#,#) _ ipv1 -> ipv1; };
+
+
+==================== STG syntax: ====================
+2017-10-20 12:59:28.888303 UTC
+
+$trModule4 :: Addr# = "main"#;
+
+$trModule3 :: TrName = NO_CCS TrNameS! [$trModule4];
+
+$trModule2 :: Addr# = "Main"#;
+
+$trModule1 :: TrName = NO_CCS TrNameS! [$trModule2];
+
+$trModule :: Module = NO_CCS Module! [$trModule3 $trModule1];
+
+$krep :: KindRep = NO_CCS KindRepTyConApp! [$tcInt []];
+
+$tcBox2 :: Addr# = "Box"#;
+
+$tcBox1 :: TrName = NO_CCS TrNameS! [$tcBox2];
+
+$tcBox :: TyCon =
+    NO_CCS TyCon! [3762919943489504256##
+                   5463706964232835171##
+                   $trModule
+                   $tcBox1
+                   0#
+                   krep$*];
+
+$krep1 :: KindRep = NO_CCS KindRepTyConApp! [$tcBox []];
+
+$tc'Box1 :: KindRep = NO_CCS KindRepFun! [$krep $krep1];
+
+$tc'Box3 :: Addr# = "'Box"#;
+
+$tc'Box2 :: TrName = NO_CCS TrNameS! [$tc'Box3];
+
+$tc'Box :: TyCon =
+    NO_CCS TyCon! [2750483572331382518##
+                   11996112659716245982##
+                   $trModule
+                   $tc'Box2
+                   0#
+                   $tc'Box1];
+
+alfa :: [Int] = \u [] eftInt 0# 0#;
+
+lvl :: Addr# = "src/Main.hs:23:40-63|case"#;
+
+main4 :: Box = \u [] patError lvl;
+
+external2 :: Int = NO_CCS I#! [0#];
+
+main3 :: State# RealWorld -> (# State# RealWorld, Bool #) =
+    \r [void]
+        case noDuplicate# [void#] of s' {
+          (##) ->
+              case alfa of {
+                [] -> badHead;
+                : x _ ->
+                    case x of wild1 {
+                      I# ds ->
+                          case ds of {
+                            __DEFAULT -> main4;
+                            0# ->
+                                case __pkg_ccall_GC base-4.10.0.0 [void#] of {
+                                  (##) ->
+                                      let {
+                                        sat :: Bool =
+                                            \u []
+                                                case reallyUnsafePtrEquality# [wild1 external2] of {
+                                                  __DEFAULT -> False [];
+                                                  1# -> True [];
+                                                };
+                                      } in  Unit# [sat];
+                                };
+                          };
+                    };
+              };
+        };
+
+main2 :: String =
+    \u []
+        case main3 realWorld# of {
+          Unit# ipv1 ->
+              case ipv1 of {
+                False -> $fShowBool3;
+                True -> $fShowBool1;
+              };
+        };
+
+main1 :: State# RealWorld -> (# State# RealWorld, () #) =
+    \r [void] hPutStr2 stdout main2 True void#;
+
+main :: IO () = \r [void] main1 void#;
+
+main5 :: State# RealWorld -> (# State# RealWorld, () #) =
+    \r [void] runMainIO1 main1 void#;
+
+main :: IO () = \r [void] main5 void#;
+
+lvl1 :: Addr# = "src/Main.hs:27:40-63|case"#;
+
+external3 :: Box = \u [] patError lvl1;
+
+external1 :: State# RealWorld -> (# State# RealWorld, Bool #) =
+    \r [void]
+        case noDuplicate# [void#] of s' {
+          (##) ->
+              case alfa of {
+                [] -> badHead;
+                : x _ ->
+                    case x of wild1 {
+                      I# ds ->
+                          case ds of {
+                            __DEFAULT -> external3;
+                            0# ->
+                                case __pkg_ccall_GC base-4.10.0.0 [void#] of {
+                                  (##) ->
+                                      let {
+                                        sat :: Bool =
+                                            \u []
+                                                case reallyUnsafePtrEquality# [wild1 external2] of {
+                                                  __DEFAULT -> False [];
+                                                  1# -> True [];
+                                                };
+                                      } in  Unit# [sat];
+                                };
+                          };
+                    };
+              };
+        };
+
+external :: Bool =
+    \u [] case external1 realWorld# of { Unit# ipv1 -> ipv1; };
+

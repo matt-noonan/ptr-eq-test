@@ -1,0 +1,146 @@
+
+==================== Tidy Core ====================
+2017-10-20 12:58:11.018055 UTC
+
+Result size of Tidy Core = {terms: 135, types: 135, coercions: 9}
+
+-- RHS size: {terms: 2, types: 0, coercions: 0}
+$trModule2 :: TrName
+$trModule2 = TrNameS "main"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0}
+$trModule1 :: TrName
+$trModule1 = TrNameS "Main"#
+
+-- RHS size: {terms: 3, types: 0, coercions: 0}
+$trModule :: Module
+$trModule = Module $trModule2 $trModule1
+
+-- RHS size: {terms: 2, types: 0, coercions: 0}
+$tc'Box1 :: TrName
+$tc'Box1 = TrNameS "'Box"#
+
+-- RHS size: {terms: 5, types: 0, coercions: 0}
+$tc'Box :: TyCon
+$tc'Box =
+  TyCon
+    3131712011714945789## 8815380752551364291## $trModule $tc'Box1
+
+-- RHS size: {terms: 2, types: 0, coercions: 0}
+$tcBox1 :: TrName
+$tcBox1 = TrNameS "Box"#
+
+-- RHS size: {terms: 5, types: 0, coercions: 0}
+$tcBox :: TyCon
+$tcBox =
+  TyCon
+    2253243104280987293## 12966491905552233425## $trModule $tcBox1
+
+-- RHS size: {terms: 3, types: 0, coercions: 0}
+alfa :: [Int]
+alfa = eftInt 0# 0#
+
+-- RHS size: {terms: 35, types: 31, coercions: 0}
+main3 :: State# RealWorld -> (# State# RealWorld, Bool #)
+main3 =
+  \ (s :: State# RealWorld) ->
+    case noDuplicate# s of s' { __DEFAULT ->
+    case alfa of _ {
+      [] -> case badHead of wild1 { };
+      : x ds1 ->
+        case x of wild1 { I# ds ->
+        case ds of _ {
+          __DEFAULT ->
+            case patError "src/Main.hs:23:40-63|case"# of wild2 { };
+          0# ->
+            case {__pkg_ccall_GC base-4.9.1.0 performMajorGC State# RealWorld
+                                            -> (# State# RealWorld #)}
+                   s'
+            of _ { (# ds3 #) ->
+            (# ds3,
+               case reallyUnsafePtrEquality# wild1 wild1 of _ {
+                 __DEFAULT -> False;
+                 1# -> True
+               } #)
+            }
+        }
+        }
+    }
+    }
+
+-- RHS size: {terms: 10, types: 12, coercions: 0}
+main2 :: String
+main2 =
+  case runRW# main3 of _ { (# ipv, ipv1 #) ->
+  case ipv1 of _ {
+    False -> shows18;
+    True -> shows17
+  }
+  }
+
+-- RHS size: {terms: 6, types: 2, coercions: 0}
+main1 :: State# RealWorld -> (# State# RealWorld, () #)
+main1 =
+  \ (eta :: State# RealWorld) -> hPutStr2 stdout main2 True eta
+
+-- RHS size: {terms: 1, types: 0, coercions: 3}
+main :: IO ()
+main =
+  main1
+  `cast` (Sym (N:IO[0] <()>_R)
+          :: ((State# RealWorld -> (# State# RealWorld, () #)) :: *)
+             ~R#
+             (IO () :: *))
+
+-- RHS size: {terms: 2, types: 1, coercions: 3}
+main4 :: State# RealWorld -> (# State# RealWorld, () #)
+main4 =
+  runMainIO1
+    (main1
+     `cast` (Sym (N:IO[0] <()>_R)
+             :: ((State# RealWorld -> (# State# RealWorld, () #)) :: *)
+                ~R#
+                (IO () :: *)))
+
+-- RHS size: {terms: 1, types: 0, coercions: 3}
+main :: IO ()
+main =
+  main4
+  `cast` (Sym (N:IO[0] <()>_R)
+          :: ((State# RealWorld -> (# State# RealWorld, () #)) :: *)
+             ~R#
+             (IO () :: *))
+
+-- RHS size: {terms: 35, types: 31, coercions: 0}
+external1 :: State# RealWorld -> (# State# RealWorld, Bool #)
+external1 =
+  \ (s :: State# RealWorld) ->
+    case noDuplicate# s of s' { __DEFAULT ->
+    case alfa of _ {
+      [] -> case badHead of wild1 { };
+      : x ds1 ->
+        case x of wild1 { I# ds ->
+        case ds of _ {
+          __DEFAULT ->
+            case patError "src/Main.hs:27:40-63|case"# of wild2 { };
+          0# ->
+            case {__pkg_ccall_GC base-4.9.1.0 performMajorGC State# RealWorld
+                                            -> (# State# RealWorld #)}
+                   s'
+            of _ { (# ds3 #) ->
+            (# ds3,
+               case reallyUnsafePtrEquality# wild1 wild1 of _ {
+                 __DEFAULT -> False;
+                 1# -> True
+               } #)
+            }
+        }
+        }
+    }
+    }
+
+-- RHS size: {terms: 5, types: 11, coercions: 0}
+external :: Bool
+external = case runRW# external1 of _ { (# ipv, ipv1 #) -> ipv1 }
+
+

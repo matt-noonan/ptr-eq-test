@@ -1,0 +1,4594 @@
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.027846 UTC
+
+[section ""data" . __stginit_main@main:Main" {
+     __stginit_main@main:Main:
+ }]
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.028309 UTC
+
+[section ""data" . __stginit_main@main:Main" {
+     __stginit_main@main:Main:
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.028593 UTC
+
+[section ""data" . __stginit_main@main:Main" {
+     __stginit_main@main:Main:
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.028988 UTC
+
+[section ""readonly" . c4Ov_str" {
+     c4Ov_str:
+         I8[] [109,97,105,110]
+ },
+ section ""data" . $trModule2_closure" {
+     $trModule2_closure:
+         const TrNameS_static_info;
+         const c4Ov_str;
+ }]
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.029279 UTC
+
+[section ""readonly" . c4Ov_str" {
+     c4Ov_str:
+         I8[] [109,97,105,110]
+ },
+ section ""data" . $trModule2_closure" {
+     $trModule2_closure:
+         const TrNameS_static_info;
+         const c4Ov_str;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.029514 UTC
+
+[section ""readonly" . c4Ov_str" {
+     c4Ov_str:
+         I8[] [109,97,105,110]
+ },
+ section ""data" . $trModule2_closure" {
+     $trModule2_closure:
+         const TrNameS_static_info;
+         const c4Ov_str;
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.029812 UTC
+
+[section ""readonly" . c4Oy_str" {
+     c4Oy_str:
+         I8[] [77,97,105,110]
+ },
+ section ""data" . $trModule1_closure" {
+     $trModule1_closure:
+         const TrNameS_static_info;
+         const c4Oy_str;
+ }]
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.030055 UTC
+
+[section ""readonly" . c4Oy_str" {
+     c4Oy_str:
+         I8[] [77,97,105,110]
+ },
+ section ""data" . $trModule1_closure" {
+     $trModule1_closure:
+         const TrNameS_static_info;
+         const c4Oy_str;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.030631 UTC
+
+[section ""readonly" . c4Oy_str" {
+     c4Oy_str:
+         I8[] [77,97,105,110]
+ },
+ section ""data" . $trModule1_closure" {
+     $trModule1_closure:
+         const TrNameS_static_info;
+         const c4Oy_str;
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.030979 UTC
+
+[section ""data" . $trModule_closure" {
+     $trModule_closure:
+         const Module_static_info;
+         const $trModule2_closure+1;
+         const $trModule1_closure+1;
+         const 3;
+ }]
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.031206 UTC
+
+[section ""data" . $trModule_closure" {
+     $trModule_closure:
+         const Module_static_info;
+         const $trModule2_closure+1;
+         const $trModule1_closure+1;
+         const 3;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.031414 UTC
+
+[section ""data" . $trModule_closure" {
+     $trModule_closure:
+         const Module_static_info;
+         const $trModule2_closure+1;
+         const $trModule1_closure+1;
+         const 3;
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.031667 UTC
+
+[section ""readonly" . c4OC_str" {
+     c4OC_str:
+         I8[] [39,66,111,120]
+ },
+ section ""data" . $tc'Box1_closure" {
+     $tc'Box1_closure:
+         const TrNameS_static_info;
+         const c4OC_str;
+ }]
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.031895 UTC
+
+[section ""readonly" . c4OC_str" {
+     c4OC_str:
+         I8[] [39,66,111,120]
+ },
+ section ""data" . $tc'Box1_closure" {
+     $tc'Box1_closure:
+         const TrNameS_static_info;
+         const c4OC_str;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.032112 UTC
+
+[section ""readonly" . c4OC_str" {
+     c4OC_str:
+         I8[] [39,66,111,120]
+ },
+ section ""data" . $tc'Box1_closure" {
+     $tc'Box1_closure:
+         const TrNameS_static_info;
+         const c4OC_str;
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.032429 UTC
+
+[section ""data" . $tc'Box_closure" {
+     $tc'Box_closure:
+         const TyCon_static_info;
+         const $trModule_closure+1;
+         const $tc'Box1_closure+1;
+         const 3131712011714945789;
+         const 8815380752551364291;
+         const 3;
+ }]
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.032661 UTC
+
+[section ""data" . $tc'Box_closure" {
+     $tc'Box_closure:
+         const TyCon_static_info;
+         const $trModule_closure+1;
+         const $tc'Box1_closure+1;
+         const 3131712011714945789;
+         const 8815380752551364291;
+         const 3;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.033139 UTC
+
+[section ""data" . $tc'Box_closure" {
+     $tc'Box_closure:
+         const TyCon_static_info;
+         const $trModule_closure+1;
+         const $tc'Box1_closure+1;
+         const 3131712011714945789;
+         const 8815380752551364291;
+         const 3;
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.033389 UTC
+
+[section ""readonly" . c4OG_str" {
+     c4OG_str:
+         I8[] [66,111,120]
+ },
+ section ""data" . $tcBox1_closure" {
+     $tcBox1_closure:
+         const TrNameS_static_info;
+         const c4OG_str;
+ }]
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.033599 UTC
+
+[section ""readonly" . c4OG_str" {
+     c4OG_str:
+         I8[] [66,111,120]
+ },
+ section ""data" . $tcBox1_closure" {
+     $tcBox1_closure:
+         const TrNameS_static_info;
+         const c4OG_str;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.033794 UTC
+
+[section ""readonly" . c4OG_str" {
+     c4OG_str:
+         I8[] [66,111,120]
+ },
+ section ""data" . $tcBox1_closure" {
+     $tcBox1_closure:
+         const TrNameS_static_info;
+         const c4OG_str;
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.034046 UTC
+
+[section ""data" . $tcBox_closure" {
+     $tcBox_closure:
+         const TyCon_static_info;
+         const $trModule_closure+1;
+         const $tcBox1_closure+1;
+         const 2253243104280987293;
+         const 12966491905552233425;
+         const 3;
+ }]
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.034265 UTC
+
+[section ""data" . $tcBox_closure" {
+     $tcBox_closure:
+         const TyCon_static_info;
+         const $trModule_closure+1;
+         const $tcBox1_closure+1;
+         const 2253243104280987293;
+         const 12966491905552233425;
+         const 3;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.034467 UTC
+
+[section ""data" . $tcBox_closure" {
+     $tcBox_closure:
+         const TyCon_static_info;
+         const $trModule_closure+1;
+         const $tcBox1_closure+1;
+         const 2253243104280987293;
+         const 12966491905552233425;
+         const 3;
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.034719 UTC
+
+[section ""data" . alfa_closure" {
+     alfa_closure:
+         const alfa_info;
+         const 0;
+         const 0;
+         const 0;
+ },
+ alfa_entry() //  [R1]
+         { info_tbl: [(c4OQ,
+                       label: alfa_info
+                       rep:HeapRep static { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4OQ:
+           _rHe::P64 = R1;
+           goto c4OL;
+       c4OL:
+           if ((old + 0) - <highSp> < SpLim) goto c4OR; else goto c4OS;
+       c4OR:
+           R1 = _rHe::P64;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4OS:
+           (_c4ON::I64) = call "ccall" arg hints:  [PtrHint,
+                                                    PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _rHe::P64);
+           if (_c4ON::I64 == 0) goto c4OP; else goto c4OO;
+       c4OP:
+           call (I64[_rHe::P64])() args: 8, res: 0, upd: 8;
+       c4OO:
+           I64[(old + 24)] = stg_bh_upd_frame_info;
+           I64[(old + 16)] = _c4ON::I64;
+           R3 = 0;
+           R2 = 0;
+           call eftInt_info(R3, R2) args: 24, res: 0, upd: 24;
+     }
+ }]
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.036356 UTC
+
+{offset
+  c4OQ:
+      _rHe::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4OR; else goto c4OS;
+  c4OR:
+      R1 = _rHe::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4OS:
+      (_c4ON::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _rHe::P64);
+      if (_c4ON::I64 == 0) goto c4OP; else goto c4OO;
+  c4OP:
+      call (I64[_rHe::P64])() args: 8, res: 0, upd: 8;
+  c4OO:
+      I64[(old + 24)] = stg_bh_upd_frame_info;
+      I64[(old + 16)] = _c4ON::I64;
+      R3 = 0;
+      R2 = 0;
+      call eftInt_info(R3, R2) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Post common block elimination ====================
+2017-10-20 12:58:11.036753 UTC
+
+{offset
+  c4OQ:
+      _rHe::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4OR; else goto c4OS;
+  c4OR:
+      R1 = _rHe::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4OS:
+      (_c4ON::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _rHe::P64);
+      if (_c4ON::I64 == 0) goto c4OP; else goto c4OO;
+  c4OP:
+      call (I64[_rHe::P64])() args: 8, res: 0, upd: 8;
+  c4OO:
+      I64[(old + 24)] = stg_bh_upd_frame_info;
+      I64[(old + 16)] = _c4ON::I64;
+      R3 = 0;
+      R2 = 0;
+      call eftInt_info(R3, R2) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Post switch plan ====================
+2017-10-20 12:58:11.037126 UTC
+
+{offset
+  c4OQ:
+      _rHe::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4OR; else goto c4OS;
+  c4OR:
+      R1 = _rHe::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4OS:
+      (_c4ON::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _rHe::P64);
+      if (_c4ON::I64 == 0) goto c4OP; else goto c4OO;
+  c4OP:
+      call (I64[_rHe::P64])() args: 8, res: 0, upd: 8;
+  c4OO:
+      I64[(old + 24)] = stg_bh_upd_frame_info;
+      I64[(old + 16)] = _c4ON::I64;
+      R3 = 0;
+      R2 = 0;
+      call eftInt_info(R3, R2) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Layout Stack ====================
+2017-10-20 12:58:11.037549 UTC
+
+{offset
+  c4OQ:
+      _rHe::P64 = R1;
+      if ((Sp + 8) - 24 < SpLim) goto c4OR; else goto c4OS;
+  c4OR:
+      R1 = _rHe::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4OS:
+      (_c4ON::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _rHe::P64);
+      if (_c4ON::I64 == 0) goto c4OP; else goto c4OO;
+  c4OP:
+      call (I64[_rHe::P64])() args: 8, res: 0, upd: 8;
+  c4OO:
+      I64[Sp - 16] = stg_bh_upd_frame_info;
+      I64[Sp - 8] = _c4ON::I64;
+      R3 = 0;
+      R2 = 0;
+      Sp = Sp - 16;
+      call eftInt_info(R3, R2) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Sink assignments ====================
+2017-10-20 12:58:11.038191 UTC
+
+{offset
+  c4OQ:
+      if ((Sp + -16) < SpLim) goto c4OR; else goto c4OS;
+  c4OR:
+      R1 = R1;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4OS:
+      (_c4ON::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+      if (_c4ON::I64 == 0) goto c4OP; else goto c4OO;
+  c4OP:
+      call (I64[R1])() args: 8, res: 0, upd: 8;
+  c4OO:
+      I64[Sp - 16] = stg_bh_upd_frame_info;
+      I64[Sp - 8] = _c4ON::I64;
+      R3 = 0;
+      R2 = 0;
+      Sp = Sp - 16;
+      call eftInt_info(R3, R2) args: 24, res: 0, upd: 24;
+}
+
+
+==================== CAFEnv ====================
+2017-10-20 12:58:11.038651 UTC
+
+[(c4OO, {}), (c4OP, {}), (c4OQ, {}), (c4OR, {}), (c4OS, {})]
+
+
+==================== after setInfoTableStackMap ====================
+2017-10-20 12:58:11.039114 UTC
+
+alfa_entry() //  [R1]
+        { info_tbl: [(c4OQ,
+                      label: alfa_info
+                      rep:HeapRep static { Thunk })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4OQ:
+          if ((Sp + -16) < SpLim) goto c4OR; else goto c4OS;
+      c4OR:
+          R1 = R1;
+          call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+      c4OS:
+          (_c4ON::I64) = call "ccall" arg hints:  [PtrHint,
+                                                   PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+          if (_c4ON::I64 == 0) goto c4OP; else goto c4OO;
+      c4OP:
+          call (I64[R1])() args: 8, res: 0, upd: 8;
+      c4OO:
+          I64[Sp - 16] = stg_bh_upd_frame_info;
+          I64[Sp - 8] = _c4ON::I64;
+          R3 = 0;
+          R2 = 0;
+          Sp = Sp - 16;
+          call eftInt_info(R3, R2) args: 24, res: 0, upd: 24;
+    }
+}
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.03954 UTC
+
+alfa_entry() //  [R1]
+        { info_tbl: [(c4OQ,
+                      label: alfa_info
+                      rep:HeapRep static { Thunk })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4OQ:
+          if ((Sp + -16) < SpLim) goto c4OR; else goto c4OS;
+      c4OR:
+          R1 = R1;
+          call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+      c4OS:
+          (_c4ON::I64) = call "ccall" arg hints:  [PtrHint,
+                                                   PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+          if (_c4ON::I64 == 0) goto c4OP; else goto c4OO;
+      c4OP:
+          call (I64[R1])() args: 8, res: 0, upd: 8;
+      c4OO:
+          I64[Sp - 16] = stg_bh_upd_frame_info;
+          I64[Sp - 8] = _c4ON::I64;
+          R3 = 0;
+          R2 = 0;
+          Sp = Sp - 16;
+          call eftInt_info(R3, R2) args: 24, res: 0, upd: 24;
+    }
+}
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.040172 UTC
+
+[section ""data" . alfa_closure" {
+     alfa_closure:
+         const alfa_info;
+         const 0;
+         const 0;
+         const 0;
+ },
+ alfa_entry() //  [R1]
+         { info_tbl: [(c4OQ,
+                       label: alfa_info
+                       rep:HeapRep static { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4OQ:
+           if ((Sp + -16) < SpLim) goto c4OR; else goto c4OS;
+       c4OR:
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4OS:
+           (_c4ON::I64) = call "ccall" arg hints:  [PtrHint,
+                                                    PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+           if (_c4ON::I64 == 0) goto c4OP; else goto c4OO;
+       c4OP:
+           call (I64[R1])() args: 8, res: 0, upd: 8;
+       c4OO:
+           I64[Sp - 16] = stg_bh_upd_frame_info;
+           I64[Sp - 8] = _c4ON::I64;
+           R3 = 0;
+           R2 = 0;
+           Sp = Sp - 16;
+           call eftInt_info(R3, R2) args: 24, res: 0, upd: 24;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.040632 UTC
+
+[section ""data" . alfa_closure" {
+     alfa_closure:
+         const alfa_info;
+         const 0;
+         const 0;
+         const 0;
+ },
+ alfa_entry() //  [R1]
+         { info_tbl: [(c4OQ,
+                       label: alfa_info
+                       rep:HeapRep static { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4OQ:
+           if ((Sp + -16) < SpLim) goto c4OR; else goto c4OS;
+       c4OR:
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4OS:
+           (_c4ON::I64) = call "ccall" arg hints:  [PtrHint,
+                                                    PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+           if (_c4ON::I64 == 0) goto c4OP; else goto c4OO;
+       c4OP:
+           call (I64[R1])() args: 8, res: 0, upd: 8;
+       c4OO:
+           I64[Sp - 16] = stg_bh_upd_frame_info;
+           I64[Sp - 8] = _c4ON::I64;
+           R3 = 0;
+           R2 = 0;
+           Sp = Sp - 16;
+           call eftInt_info(R3, R2) args: 24, res: 0, upd: 24;
+     }
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.041844 UTC
+
+[section ""data" . main3_closure" {
+     main3_closure:
+         const main3_info;
+         const 0;
+ },
+ section ""readonly" . c4Pk_str" {
+     c4Pk_str:
+         I8[] [115,114,99,47,77,97,105,110,46,104,115,58,50,51,58,52,48,45,54,51,124,99,97,115,101]
+ },
+ sat_entry() //  [R1]
+         { info_tbl: [(c4Py,
+                       label: sat_info
+                       rep:HeapRep 1 ptrs { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Py:
+           _s4N7::P64 = R1;
+           goto c4Pr;
+       c4Pr:
+           if ((old + 0) - <highSp> < SpLim) goto c4Pz; else goto c4PK;
+       c4Pz:
+           R1 = _s4N7::P64;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4PK:
+           I64[(old + 24)] = stg_upd_frame_info;
+           P64[(old + 16)] = _s4N7::P64;
+           _s4MZ::P64 = P64[_s4N7::P64 + 16];
+           _c4Pt::I64 = _s4MZ::P64 == _s4MZ::P64;
+           _s4N6::I64 = _c4Pt::I64;
+           switch [-9223372036854775808 .. 9223372036854775807] _s4N6::I64 {
+               case 1 : goto c4Px;
+               default: goto c4Pw;
+           }
+       c4Px:
+           goto c4PH;
+       c4PH:
+           R1 = True_closure+2;
+           call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+       c4Pw:
+           goto c4PC;
+       c4PC:
+           R1 = False_closure+1;
+           call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+     }
+ },
+ main3_entry() //  []
+         { info_tbl: [(c4PL,
+                       label: main3_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4PL:
+           goto c4P1;
+       c4P1:
+           if ((old + 0) - <highSp> < SpLim) goto c4PM; else goto c4PN;
+       c4PM:
+           R1 = main3_closure;
+           call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+       c4PN:
+           goto c4P0;
+       c4P0:
+           I64[(young<c4P3> + 8)] = c4P3;
+           call stg_noDuplicate#() returns to c4P3, args: 8, res: 8, upd: 8;
+       c4P3:
+           I64[(young<c4P7> + 8)] = c4P7;
+           R1 = alfa_closure;
+           if (R1 & 7 != 0) goto c4P7; else goto c4P8;
+       c4P8:
+           call (I64[R1])(R1) returns to c4P7, args: 8, res: 8, upd: 8;
+       c4P7:
+           _s4MV::P64 = R1;
+           _c4Q2::P64 = _s4MV::P64 & 7;
+           switch [1 .. 2] _c4Q2::P64 {
+               case 1 : goto c4PS;
+               case 2 : goto c4PU;
+           }
+       c4PU:
+           _s4MX::P64 = P64[_s4MV::P64 + 6];
+           _s4MY::P64 = P64[_s4MV::P64 + 14];
+           I64[(young<c4Pd> + 8)] = c4Pd;
+           R1 = _s4MX::P64;
+           if (R1 & 7 != 0) goto c4Pd; else goto c4Pe;
+       c4Pe:
+           call (I64[R1])(R1) returns to c4Pd, args: 8, res: 8, upd: 8;
+       c4Pd:
+           _s4MZ::P64 = R1;
+           _s4N0::I64 = I64[_s4MZ::P64 + 7];
+           _s4N1::I64 = _s4N0::I64;
+           switch [-9223372036854775808 .. 9223372036854775807] _s4N1::I64 {
+               case 0 : goto c4PY;
+               default: goto c4PX;
+           }
+       c4PY:
+           _c4Pm::I64 = performMajorGC;
+           I64[(young<c4Pn> + 8)] = c4Pn;
+           foreign call "ccall" arg hints:  []  result hints:  [] (_c4Pm::I64)(...) returns to c4Pn args: ([]) ress: ([])ret_args: 8ret_off: 8;
+       c4Pn:
+           Hp = Hp + 24;
+           if (Hp > HpLim) goto c4Q1; else goto c4Q0;
+       c4Q1:
+           HpAlloc = 24;
+           goto c4PZ;
+       c4PZ:
+           call stg_gc_noregs() returns to c4Pn, args: 8, res: 8, upd: 8;
+       c4Q0:
+           I64[Hp - 16] = sat_info;
+           P64[Hp] = _s4MZ::P64;
+           _c4Pp::P64 = Hp - 16;
+           R1 = _c4Pp::P64;
+           call (P64[(old + 8)])(R1) args: 8, res: 0, upd: 8;
+       c4PX:
+           R2 = c4Pk_str;
+           call patError_info(R2) args: 8, res: 0, upd: 8;
+       c4PS:
+           R1 = badHead_closure;
+           call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.044062 UTC
+
+{offset
+  c4Py:
+      _s4N7::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4Pz; else goto c4PK;
+  c4Pz:
+      R1 = _s4N7::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4PK:
+      I64[(old + 24)] = stg_upd_frame_info;
+      P64[(old + 16)] = _s4N7::P64;
+      _s4MZ::P64 = P64[_s4N7::P64 + 16];
+      _c4Pt::I64 = _s4MZ::P64 == _s4MZ::P64;
+      _s4N6::I64 = _c4Pt::I64;
+      switch [-9223372036854775808 .. 9223372036854775807] _s4N6::I64 {
+          case 1 : goto c4Px;
+          default: goto c4Pw;
+      }
+  c4Px:
+      R1 = True_closure+2;
+      call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+  c4Pw:
+      R1 = False_closure+1;
+      call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Post common block elimination ====================
+2017-10-20 12:58:11.0445 UTC
+
+{offset
+  c4Py:
+      _s4N7::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4Pz; else goto c4PK;
+  c4Pz:
+      R1 = _s4N7::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4PK:
+      I64[(old + 24)] = stg_upd_frame_info;
+      P64[(old + 16)] = _s4N7::P64;
+      _s4MZ::P64 = P64[_s4N7::P64 + 16];
+      _c4Pt::I64 = _s4MZ::P64 == _s4MZ::P64;
+      _s4N6::I64 = _c4Pt::I64;
+      switch [-9223372036854775808 .. 9223372036854775807] _s4N6::I64 {
+          case 1 : goto c4Px;
+          default: goto c4Pw;
+      }
+  c4Px:
+      R1 = True_closure+2;
+      call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+  c4Pw:
+      R1 = False_closure+1;
+      call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Post switch plan ====================
+2017-10-20 12:58:11.044852 UTC
+
+{offset
+  c4Py:
+      _s4N7::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4Pz; else goto c4PK;
+  c4Pz:
+      R1 = _s4N7::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4PK:
+      I64[(old + 24)] = stg_upd_frame_info;
+      P64[(old + 16)] = _s4N7::P64;
+      _s4MZ::P64 = P64[_s4N7::P64 + 16];
+      _c4Pt::I64 = _s4MZ::P64 == _s4MZ::P64;
+      _s4N6::I64 = _c4Pt::I64;
+      if (_s4N6::I64 != 1) goto c4Pw; else goto c4Px;
+  c4Pw:
+      R1 = False_closure+1;
+      call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+  c4Px:
+      R1 = True_closure+2;
+      call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Layout Stack ====================
+2017-10-20 12:58:11.04539 UTC
+
+{offset
+  c4Py:
+      _s4N7::P64 = R1;
+      if ((Sp + 8) - 24 < SpLim) goto c4Pz; else goto c4PK;
+  c4Pz:
+      R1 = _s4N7::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4PK:
+      I64[Sp - 16] = stg_upd_frame_info;
+      P64[Sp - 8] = _s4N7::P64;
+      _s4MZ::P64 = P64[_s4N7::P64 + 16];
+      _c4Pt::I64 = _s4MZ::P64 == _s4MZ::P64;
+      _s4N6::I64 = _c4Pt::I64;
+      if (_s4N6::I64 != 1) goto c4Pw; else goto c4Px;
+  c4Pw:
+      R1 = False_closure+1;
+      Sp = Sp - 16;
+      call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+  c4Px:
+      R1 = True_closure+2;
+      Sp = Sp - 16;
+      call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Sink assignments ====================
+2017-10-20 12:58:11.045732 UTC
+
+{offset
+  c4Py:
+      if ((Sp + -16) < SpLim) goto c4Pz; else goto c4PK;
+  c4Pz:
+      R1 = R1;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4PK:
+      I64[Sp - 16] = stg_upd_frame_info;
+      P64[Sp - 8] = R1;
+      _s4MZ::P64 = P64[R1 + 16];
+      if (_s4MZ::P64 != _s4MZ::P64) goto c4Pw; else goto c4Px;
+  c4Pw:
+      R1 = False_closure+1;
+      Sp = Sp - 16;
+      call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+  c4Px:
+      R1 = True_closure+2;
+      Sp = Sp - 16;
+      call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== CAFEnv ====================
+2017-10-20 12:58:11.046139 UTC
+
+[(c4Pw, {}), (c4Px, {}), (c4Py, {}), (c4Pz, {}), (c4PK, {})]
+
+
+==================== after setInfoTableStackMap ====================
+2017-10-20 12:58:11.046341 UTC
+
+sat_entry() //  [R1]
+        { info_tbl: [(c4Py,
+                      label: sat_info
+                      rep:HeapRep 1 ptrs { Thunk })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4Py:
+          if ((Sp + -16) < SpLim) goto c4Pz; else goto c4PK;
+      c4Pz:
+          R1 = R1;
+          call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+      c4PK:
+          I64[Sp - 16] = stg_upd_frame_info;
+          P64[Sp - 8] = R1;
+          _s4MZ::P64 = P64[R1 + 16];
+          if (_s4MZ::P64 != _s4MZ::P64) goto c4Pw; else goto c4Px;
+      c4Pw:
+          R1 = False_closure+1;
+          Sp = Sp - 16;
+          call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+      c4Px:
+          R1 = True_closure+2;
+          Sp = Sp - 16;
+          call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+    }
+}
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.046712 UTC
+
+sat_entry() //  [R1]
+        { info_tbl: [(c4Py,
+                      label: sat_info
+                      rep:HeapRep 1 ptrs { Thunk })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4Py:
+          if ((Sp + -16) < SpLim) goto c4Pz; else goto c4PK;
+      c4Pz:
+          R1 = R1;
+          call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+      c4PK:
+          I64[Sp - 16] = stg_upd_frame_info;
+          P64[Sp - 8] = R1;
+          _s4MZ::P64 = P64[R1 + 16];
+          if (_s4MZ::P64 != _s4MZ::P64) goto c4Pw; else goto c4Px;
+      c4Pw:
+          R1 = False_closure+1;
+          Sp = Sp - 16;
+          call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+      c4Px:
+          R1 = True_closure+2;
+          Sp = Sp - 16;
+          call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+    }
+}
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.047278 UTC
+
+{offset
+  c4PL:
+      if ((old + 0) - <highSp> < SpLim) goto c4PM; else goto c4PN;
+  c4PM:
+      R1 = main3_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4PN:
+      I64[(young<c4P3> + 8)] = c4P3;
+      call stg_noDuplicate#() returns to c4P3, args: 8, res: 8, upd: 8;
+  c4P3:
+      I64[(young<c4P7> + 8)] = c4P7;
+      R1 = alfa_closure;
+      if (R1 & 7 != 0) goto c4P7; else goto c4P8;
+  c4P8:
+      call (I64[R1])(R1) returns to c4P7, args: 8, res: 8, upd: 8;
+  c4P7:
+      _s4MV::P64 = R1;
+      _c4Q2::P64 = _s4MV::P64 & 7;
+      switch [1 .. 2] _c4Q2::P64 {
+          case 1 : goto c4PS;
+          case 2 : goto c4PU;
+      }
+  c4PU:
+      _s4MX::P64 = P64[_s4MV::P64 + 6];
+      _s4MY::P64 = P64[_s4MV::P64 + 14];
+      I64[(young<c4Pd> + 8)] = c4Pd;
+      R1 = _s4MX::P64;
+      if (R1 & 7 != 0) goto c4Pd; else goto c4Pe;
+  c4Pe:
+      call (I64[R1])(R1) returns to c4Pd, args: 8, res: 8, upd: 8;
+  c4Pd:
+      _s4MZ::P64 = R1;
+      _s4N0::I64 = I64[_s4MZ::P64 + 7];
+      _s4N1::I64 = _s4N0::I64;
+      switch [-9223372036854775808 .. 9223372036854775807] _s4N1::I64 {
+          case 0 : goto c4PY;
+          default: goto c4PX;
+      }
+  c4PY:
+      _c4Pm::I64 = performMajorGC;
+      I64[(young<c4Pn> + 8)] = c4Pn;
+      foreign call "ccall" arg hints:  []  result hints:  [] (_c4Pm::I64)(...) returns to c4Pn args: ([]) ress: ([])ret_args: 8ret_off: 8;
+  c4Pn:
+      Hp = Hp + 24;
+      if (Hp > HpLim) goto c4Q1; else goto c4Q0;
+  c4Q1:
+      HpAlloc = 24;
+      call stg_gc_noregs() returns to c4Pn, args: 8, res: 8, upd: 8;
+  c4Q0:
+      I64[Hp - 16] = sat_info;
+      P64[Hp] = _s4MZ::P64;
+      _c4Pp::P64 = Hp - 16;
+      R1 = _c4Pp::P64;
+      call (P64[(old + 8)])(R1) args: 8, res: 0, upd: 8;
+  c4PX:
+      R2 = c4Pk_str;
+      call patError_info(R2) args: 8, res: 0, upd: 8;
+  c4PS:
+      R1 = badHead_closure;
+      call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Post common block elimination ====================
+2017-10-20 12:58:11.047938 UTC
+
+{offset
+  c4PL:
+      if ((old + 0) - <highSp> < SpLim) goto c4PM; else goto c4PN;
+  c4PM:
+      R1 = main3_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4PN:
+      I64[(young<c4P3> + 8)] = c4P3;
+      call stg_noDuplicate#() returns to c4P3, args: 8, res: 8, upd: 8;
+  c4P3:
+      I64[(young<c4P7> + 8)] = c4P7;
+      R1 = alfa_closure;
+      if (R1 & 7 != 0) goto c4P7; else goto c4P8;
+  c4P8:
+      call (I64[R1])(R1) returns to c4P7, args: 8, res: 8, upd: 8;
+  c4P7:
+      _s4MV::P64 = R1;
+      _c4Q2::P64 = _s4MV::P64 & 7;
+      switch [1 .. 2] _c4Q2::P64 {
+          case 1 : goto c4PS;
+          case 2 : goto c4PU;
+      }
+  c4PU:
+      _s4MX::P64 = P64[_s4MV::P64 + 6];
+      _s4MY::P64 = P64[_s4MV::P64 + 14];
+      I64[(young<c4Pd> + 8)] = c4Pd;
+      R1 = _s4MX::P64;
+      if (R1 & 7 != 0) goto c4Pd; else goto c4Pe;
+  c4Pe:
+      call (I64[R1])(R1) returns to c4Pd, args: 8, res: 8, upd: 8;
+  c4Pd:
+      _s4MZ::P64 = R1;
+      _s4N0::I64 = I64[_s4MZ::P64 + 7];
+      _s4N1::I64 = _s4N0::I64;
+      switch [-9223372036854775808 .. 9223372036854775807] _s4N1::I64 {
+          case 0 : goto c4PY;
+          default: goto c4PX;
+      }
+  c4PY:
+      _c4Pm::I64 = performMajorGC;
+      I64[(young<c4Pn> + 8)] = c4Pn;
+      foreign call "ccall" arg hints:  []  result hints:  [] (_c4Pm::I64)(...) returns to c4Pn args: ([]) ress: ([])ret_args: 8ret_off: 8;
+  c4Pn:
+      Hp = Hp + 24;
+      if (Hp > HpLim) goto c4Q1; else goto c4Q0;
+  c4Q1:
+      HpAlloc = 24;
+      call stg_gc_noregs() returns to c4Pn, args: 8, res: 8, upd: 8;
+  c4Q0:
+      I64[Hp - 16] = sat_info;
+      P64[Hp] = _s4MZ::P64;
+      _c4Pp::P64 = Hp - 16;
+      R1 = _c4Pp::P64;
+      call (P64[(old + 8)])(R1) args: 8, res: 0, upd: 8;
+  c4PX:
+      R2 = c4Pk_str;
+      call patError_info(R2) args: 8, res: 0, upd: 8;
+  c4PS:
+      R1 = badHead_closure;
+      call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Post switch plan ====================
+2017-10-20 12:58:11.048802 UTC
+
+{offset
+  c4PL:
+      if ((old + 0) - <highSp> < SpLim) goto c4PM; else goto c4PN;
+  c4PM:
+      R1 = main3_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4PN:
+      I64[(young<c4P3> + 8)] = c4P3;
+      call stg_noDuplicate#() returns to c4P3, args: 8, res: 8, upd: 8;
+  c4P3:
+      I64[(young<c4P7> + 8)] = c4P7;
+      R1 = alfa_closure;
+      if (R1 & 7 != 0) goto c4P7; else goto c4P8;
+  c4P8:
+      call (I64[R1])(R1) returns to c4P7, args: 8, res: 8, upd: 8;
+  c4P7:
+      _s4MV::P64 = R1;
+      _c4Q2::P64 = _s4MV::P64 & 7;
+      if (_c4Q2::P64 != 1) goto c4PU; else goto c4PS;
+  c4PU:
+      _s4MX::P64 = P64[_s4MV::P64 + 6];
+      _s4MY::P64 = P64[_s4MV::P64 + 14];
+      I64[(young<c4Pd> + 8)] = c4Pd;
+      R1 = _s4MX::P64;
+      if (R1 & 7 != 0) goto c4Pd; else goto c4Pe;
+  c4Pe:
+      call (I64[R1])(R1) returns to c4Pd, args: 8, res: 8, upd: 8;
+  c4Pd:
+      _s4MZ::P64 = R1;
+      _s4N0::I64 = I64[_s4MZ::P64 + 7];
+      _s4N1::I64 = _s4N0::I64;
+      if (_s4N1::I64 != 0) goto c4PX; else goto c4PY;
+  c4PX:
+      R2 = c4Pk_str;
+      call patError_info(R2) args: 8, res: 0, upd: 8;
+  c4PY:
+      _c4Pm::I64 = performMajorGC;
+      I64[(young<c4Pn> + 8)] = c4Pn;
+      foreign call "ccall" arg hints:  []  result hints:  [] (_c4Pm::I64)(...) returns to c4Pn args: ([]) ress: ([])ret_args: 8ret_off: 8;
+  c4Pn:
+      Hp = Hp + 24;
+      if (Hp > HpLim) goto c4Q1; else goto c4Q0;
+  c4Q1:
+      HpAlloc = 24;
+      call stg_gc_noregs() returns to c4Pn, args: 8, res: 8, upd: 8;
+  c4Q0:
+      I64[Hp - 16] = sat_info;
+      P64[Hp] = _s4MZ::P64;
+      _c4Pp::P64 = Hp - 16;
+      R1 = _c4Pp::P64;
+      call (P64[(old + 8)])(R1) args: 8, res: 0, upd: 8;
+  c4PS:
+      R1 = badHead_closure;
+      call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Layout Stack ====================
+2017-10-20 12:58:11.049732 UTC
+
+{offset
+  c4PL:
+      if ((Sp + 8) - 24 < SpLim) goto c4PM; else goto c4PN;
+  c4PM:
+      R1 = main3_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4PN:
+      I64[Sp - 8] = c4P3;
+      Sp = Sp - 8;
+      call stg_noDuplicate#() returns to c4P3, args: 8, res: 8, upd: 8;
+  c4P3:
+      I64[Sp] = c4P7;
+      R1 = alfa_closure;
+      if (R1 & 7 != 0) goto c4P7; else goto c4P8;
+  c4P8:
+      call (I64[R1])(R1) returns to c4P7, args: 8, res: 8, upd: 8;
+  c4P7:
+      _s4MV::P64 = R1;
+      _c4Q2::P64 = _s4MV::P64 & 7;
+      if (_c4Q2::P64 != 1) goto c4PU; else goto c4PS;
+  c4PU:
+      _s4MX::P64 = P64[_s4MV::P64 + 6];
+      _s4MY::P64 = P64[_s4MV::P64 + 14];
+      I64[Sp] = c4Pd;
+      R1 = _s4MX::P64;
+      if (R1 & 7 != 0) goto c4Pd; else goto c4Pe;
+  c4Pe:
+      call (I64[R1])(R1) returns to c4Pd, args: 8, res: 8, upd: 8;
+  c4Pd:
+      _s4MZ::P64 = R1;
+      _s4N0::I64 = I64[_s4MZ::P64 + 7];
+      _s4N1::I64 = _s4N0::I64;
+      if (_s4N1::I64 != 0) goto c4PX; else goto c4PY;
+  c4PX:
+      R2 = c4Pk_str;
+      Sp = Sp + 8;
+      call patError_info(R2) args: 8, res: 0, upd: 8;
+  c4PY:
+      _c4Pm::I64 = performMajorGC;
+      I64[Sp - 8] = c4Pn;
+      P64[Sp] = _s4MZ::P64;
+      Sp = Sp - 8;
+      _u4Q6::P64 = CurrentTSO;
+      I64[I64[_u4Q6::P64 + 24] + 16] = Sp;
+      _u4Q7::I64 = CurrentNursery;
+      P64[_u4Q7::I64 + 8] = Hp + 8;
+      I64[_u4Q6::P64 + 104] = I64[_u4Q6::P64 + 104] - %MO_UU_Conv_W64_W64((Hp + 8) - I64[_u4Q7::I64]);
+      (_u4Q3::I64) = call "ccall" arg hints:  [PtrHint,]  result hints:  [PtrHint] suspendThread(BaseReg, 0);
+      call "ccall" arg hints:  []  result hints:  [] (_c4Pm::I64)();
+      (_u4Q4::I64) = call "ccall" arg hints:  [PtrHint]  result hints:  [PtrHint] resumeThread(_u4Q3::I64);
+      BaseReg = _u4Q4::I64;
+      _u4Q6::P64 = CurrentTSO;
+      _u4Q5::P64 = I64[_u4Q6::P64 + 24];
+      Sp = I64[_u4Q5::P64 + 16];
+      SpLim = _u4Q5::P64 + 192;
+      HpAlloc = 0;
+      _u4Q7::I64 = CurrentNursery;
+      _u4Q8::I64 = I64[_u4Q7::I64 + 8];
+      Hp = _u4Q8::I64 - 8;
+      _u4Q9::I64 = I64[_u4Q7::I64];
+      HpLim = _u4Q9::I64 + (%MO_SS_Conv_W32_W64(I32[_u4Q7::I64 + 48]) * 4096 - 1);
+      I64[_u4Q6::P64 + 104] = I64[_u4Q6::P64 + 104] + %MO_UU_Conv_W64_W64(_u4Q8::I64 - _u4Q9::I64);
+      call (I64[Sp])() returns to c4Pn, args: 8, res: 8, upd: 8;
+  c4Pn:
+      _s4MZ::P64 = P64[Sp + 8];
+      Hp = Hp + 24;
+      if (Hp > HpLim) goto c4Q1; else goto c4Q0;
+  c4Q1:
+      HpAlloc = 24;
+      call stg_gc_noregs() returns to c4Pn, args: 8, res: 8, upd: 8;
+  c4Q0:
+      I64[Hp - 16] = sat_info;
+      P64[Hp] = _s4MZ::P64;
+      _c4Pp::P64 = Hp - 16;
+      R1 = _c4Pp::P64;
+      Sp = Sp + 16;
+      call (P64[Sp])(R1) args: 8, res: 0, upd: 8;
+  c4PS:
+      R1 = badHead_closure;
+      Sp = Sp + 8;
+      call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Sink assignments ====================
+2017-10-20 12:58:11.051756 UTC
+
+{offset
+  c4PL:
+      if ((Sp + -16) < SpLim) goto c4PM; else goto c4PN;
+  c4PM:
+      R1 = main3_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4PN:
+      I64[Sp - 8] = c4P3;
+      Sp = Sp - 8;
+      call stg_noDuplicate#() returns to c4P3, args: 8, res: 8, upd: 8;
+  c4P3:
+      I64[Sp] = c4P7;
+      R1 = alfa_closure;
+      if (R1 & 7 != 0) goto c4P7; else goto c4P8;
+  c4P8:
+      call (I64[R1])(R1) returns to c4P7, args: 8, res: 8, upd: 8;
+  c4P7:
+      if (R1 & 7 != 1) goto c4PU; else goto c4PS;
+  c4PU:
+      I64[Sp] = c4Pd;
+      R1 = P64[R1 + 6];
+      if (R1 & 7 != 0) goto c4Pd; else goto c4Pe;
+  c4Pe:
+      call (I64[R1])(R1) returns to c4Pd, args: 8, res: 8, upd: 8;
+  c4Pd:
+      if (I64[R1 + 7] != 0) goto c4PX; else goto c4PY;
+  c4PX:
+      R2 = c4Pk_str;
+      Sp = Sp + 8;
+      call patError_info(R2) args: 8, res: 0, upd: 8;
+  c4PY:
+      I64[Sp - 8] = c4Pn;
+      P64[Sp] = R1;
+      Sp = Sp - 8;
+      _u4Q6::P64 = CurrentTSO;
+      I64[I64[_u4Q6::P64 + 24] + 16] = Sp;
+      _u4Q7::I64 = CurrentNursery;
+      P64[_u4Q7::I64 + 8] = Hp + 8;
+      I64[_u4Q6::P64 + 104] = I64[_u4Q6::P64 + 104] - ((Hp + 8) - I64[_u4Q7::I64]);
+      (_u4Q3::I64) = call "ccall" arg hints:  [PtrHint,]  result hints:  [PtrHint] suspendThread(BaseReg, 0);
+      call "ccall" arg hints:  []  result hints:  [] performMajorGC();
+      (_u4Q4::I64) = call "ccall" arg hints:  [PtrHint]  result hints:  [PtrHint] resumeThread(_u4Q3::I64);
+      BaseReg = _u4Q4::I64;
+      _u4Q6::P64 = CurrentTSO;
+      _u4Q5::P64 = I64[_u4Q6::P64 + 24];
+      Sp = I64[_u4Q5::P64 + 16];
+      SpLim = _u4Q5::P64 + 192;
+      HpAlloc = 0;
+      _u4Q7::I64 = CurrentNursery;
+      _u4Q8::I64 = I64[_u4Q7::I64 + 8];
+      Hp = _u4Q8::I64 - 8;
+      _u4Q9::I64 = I64[_u4Q7::I64];
+      HpLim = _u4Q9::I64 + ((%MO_SS_Conv_W32_W64(I32[_u4Q7::I64 + 48]) << 12) - 1);
+      I64[_u4Q6::P64 + 104] = I64[_u4Q6::P64 + 104] + (_u4Q8::I64 - _u4Q9::I64);
+      call (I64[Sp])() returns to c4Pn, args: 8, res: 8, upd: 8;
+  c4Pn:
+      Hp = Hp + 24;
+      if (Hp > HpLim) goto c4Q1; else goto c4Q0;
+  c4Q1:
+      HpAlloc = 24;
+      call stg_gc_noregs() returns to c4Pn, args: 8, res: 8, upd: 8;
+  c4Q0:
+      I64[Hp - 16] = sat_info;
+      P64[Hp] = P64[Sp + 8];
+      R1 = Hp - 16;
+      Sp = Sp + 16;
+      call (P64[Sp])(R1) args: 8, res: 0, upd: 8;
+  c4PS:
+      R1 = badHead_closure;
+      Sp = Sp + 8;
+      call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+}
+
+
+==================== CAFEnv ====================
+2017-10-20 12:58:11.053048 UTC
+
+[(c4P3,
+  {patError_closure, alfa_closure, badHead_closure, sat_closure}),
+ (c4P7, {patError_closure, badHead_closure, sat_closure}),
+ (c4P8, {patError_closure, badHead_closure, sat_closure}),
+ (c4Pd, {patError_closure, sat_closure}),
+ (c4Pe, {patError_closure, sat_closure}), (c4Pn, {sat_closure}),
+ (c4PL,
+  {patError_closure, alfa_closure, badHead_closure, main3_closure,
+   sat_closure}),
+ (c4PM, {main3_closure}),
+ (c4PN,
+  {patError_closure, alfa_closure, badHead_closure, sat_closure}),
+ (c4PS, {badHead_closure}), (c4PU, {patError_closure, sat_closure}),
+ (c4PX, {patError_closure}), (c4PY, {sat_closure}),
+ (c4Q0, {sat_closure}), (c4Q1, {sat_closure})]
+
+
+==================== after setInfoTableStackMap ====================
+2017-10-20 12:58:11.053616 UTC
+
+main3_entry() //  []
+        { info_tbl: [(c4P3,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4P7,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4Pd,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4Pn,
+                      label: block_info
+                      rep:StackRep [False]),
+                     (c4PL,
+                      label: main3_info
+                      rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4PL:
+          if ((Sp + -16) < SpLim) goto c4PM; else goto c4PN;
+      c4PM:
+          R1 = main3_closure;
+          call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+      c4PN:
+          I64[Sp - 8] = c4P3;
+          Sp = Sp - 8;
+          call stg_noDuplicate#() returns to c4P3, args: 8, res: 8, upd: 8;
+      c4P3:
+          I64[Sp] = c4P7;
+          R1 = alfa_closure;
+          if (R1 & 7 != 0) goto c4P7; else goto c4P8;
+      c4P8:
+          call (I64[R1])(R1) returns to c4P7, args: 8, res: 8, upd: 8;
+      c4P7:
+          if (R1 & 7 != 1) goto c4PU; else goto c4PS;
+      c4PU:
+          I64[Sp] = c4Pd;
+          R1 = P64[R1 + 6];
+          if (R1 & 7 != 0) goto c4Pd; else goto c4Pe;
+      c4Pe:
+          call (I64[R1])(R1) returns to c4Pd, args: 8, res: 8, upd: 8;
+      c4Pd:
+          if (I64[R1 + 7] != 0) goto c4PX; else goto c4PY;
+      c4PX:
+          R2 = c4Pk_str;
+          Sp = Sp + 8;
+          call patError_info(R2) args: 8, res: 0, upd: 8;
+      c4PY:
+          I64[Sp - 8] = c4Pn;
+          P64[Sp] = R1;
+          Sp = Sp - 8;
+          _u4Q6::P64 = CurrentTSO;
+          I64[I64[_u4Q6::P64 + 24] + 16] = Sp;
+          _u4Q7::I64 = CurrentNursery;
+          P64[_u4Q7::I64 + 8] = Hp + 8;
+          I64[_u4Q6::P64 + 104] = I64[_u4Q6::P64 + 104] - ((Hp + 8) - I64[_u4Q7::I64]);
+          (_u4Q3::I64) = call "ccall" arg hints:  [PtrHint,]  result hints:  [PtrHint] suspendThread(BaseReg, 0);
+          call "ccall" arg hints:  []  result hints:  [] performMajorGC();
+          (_u4Q4::I64) = call "ccall" arg hints:  [PtrHint]  result hints:  [PtrHint] resumeThread(_u4Q3::I64);
+          BaseReg = _u4Q4::I64;
+          _u4Q6::P64 = CurrentTSO;
+          _u4Q5::P64 = I64[_u4Q6::P64 + 24];
+          Sp = I64[_u4Q5::P64 + 16];
+          SpLim = _u4Q5::P64 + 192;
+          HpAlloc = 0;
+          _u4Q7::I64 = CurrentNursery;
+          _u4Q8::I64 = I64[_u4Q7::I64 + 8];
+          Hp = _u4Q8::I64 - 8;
+          _u4Q9::I64 = I64[_u4Q7::I64];
+          HpLim = _u4Q9::I64 + ((%MO_SS_Conv_W32_W64(I32[_u4Q7::I64 + 48]) << 12) - 1);
+          I64[_u4Q6::P64 + 104] = I64[_u4Q6::P64 + 104] + (_u4Q8::I64 - _u4Q9::I64);
+          call (I64[Sp])() returns to c4Pn, args: 8, res: 8, upd: 8;
+      c4Pn:
+          Hp = Hp + 24;
+          if (Hp > HpLim) goto c4Q1; else goto c4Q0;
+      c4Q1:
+          HpAlloc = 24;
+          call stg_gc_noregs() returns to c4Pn, args: 8, res: 8, upd: 8;
+      c4Q0:
+          I64[Hp - 16] = sat_info;
+          P64[Hp] = P64[Sp + 8];
+          R1 = Hp - 16;
+          Sp = Sp + 16;
+          call (P64[Sp])(R1) args: 8, res: 0, upd: 8;
+      c4PS:
+          R1 = badHead_closure;
+          Sp = Sp + 8;
+          call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+    }
+}
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.054732 UTC
+
+main3_entry() //  []
+        { info_tbl: [(c4P3,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4P7,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4Pd,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4Pn,
+                      label: block_info
+                      rep:StackRep [False]),
+                     (c4PL,
+                      label: main3_info
+                      rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4PL:
+          if ((Sp + -16) < SpLim) goto c4PM; else goto c4PN;
+      c4PM:
+          R1 = main3_closure;
+          call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+      c4PN:
+          I64[Sp - 8] = c4P3;
+          Sp = Sp - 8;
+          call stg_noDuplicate#() returns to c4P3, args: 8, res: 8, upd: 8;
+      c4P3:
+          I64[Sp] = c4P7;
+          R1 = alfa_closure;
+          if (R1 & 7 != 0) goto c4P7; else goto c4P8;
+      c4P8:
+          call (I64[R1])(R1) returns to c4P7, args: 8, res: 8, upd: 8;
+      c4P7:
+          if (R1 & 7 != 1) goto c4PU; else goto c4PS;
+      c4PU:
+          I64[Sp] = c4Pd;
+          R1 = P64[R1 + 6];
+          if (R1 & 7 != 0) goto c4Pd; else goto c4Pe;
+      c4Pe:
+          call (I64[R1])(R1) returns to c4Pd, args: 8, res: 8, upd: 8;
+      c4Pd:
+          if (I64[R1 + 7] != 0) goto c4PX; else goto c4PY;
+      c4PX:
+          R2 = c4Pk_str;
+          Sp = Sp + 8;
+          call patError_info(R2) args: 8, res: 0, upd: 8;
+      c4PY:
+          I64[Sp - 8] = c4Pn;
+          P64[Sp] = R1;
+          Sp = Sp - 8;
+          _u4Q6::P64 = CurrentTSO;
+          I64[I64[_u4Q6::P64 + 24] + 16] = Sp;
+          _u4Q7::I64 = CurrentNursery;
+          P64[_u4Q7::I64 + 8] = Hp + 8;
+          I64[_u4Q6::P64 + 104] = I64[_u4Q6::P64 + 104] - ((Hp + 8) - I64[_u4Q7::I64]);
+          (_u4Q3::I64) = call "ccall" arg hints:  [PtrHint,]  result hints:  [PtrHint] suspendThread(BaseReg, 0);
+          call "ccall" arg hints:  []  result hints:  [] performMajorGC();
+          (_u4Q4::I64) = call "ccall" arg hints:  [PtrHint]  result hints:  [PtrHint] resumeThread(_u4Q3::I64);
+          BaseReg = _u4Q4::I64;
+          _u4Q6::P64 = CurrentTSO;
+          _u4Q5::P64 = I64[_u4Q6::P64 + 24];
+          Sp = I64[_u4Q5::P64 + 16];
+          SpLim = _u4Q5::P64 + 192;
+          HpAlloc = 0;
+          _u4Q7::I64 = CurrentNursery;
+          _u4Q8::I64 = I64[_u4Q7::I64 + 8];
+          Hp = _u4Q8::I64 - 8;
+          _u4Q9::I64 = I64[_u4Q7::I64];
+          HpLim = _u4Q9::I64 + ((%MO_SS_Conv_W32_W64(I32[_u4Q7::I64 + 48]) << 12) - 1);
+          I64[_u4Q6::P64 + 104] = I64[_u4Q6::P64 + 104] + (_u4Q8::I64 - _u4Q9::I64);
+          call (I64[Sp])() returns to c4Pn, args: 8, res: 8, upd: 8;
+      c4Pn:
+          Hp = Hp + 24;
+          if (Hp > HpLim) goto c4Q1; else goto c4Q0;
+      c4Q1:
+          HpAlloc = 24;
+          call stg_gc_noregs() returns to c4Pn, args: 8, res: 8, upd: 8;
+      c4Q0:
+          I64[Hp - 16] = sat_info;
+          P64[Hp] = P64[Sp + 8];
+          R1 = Hp - 16;
+          Sp = Sp + 16;
+          call (P64[Sp])(R1) args: 8, res: 0, upd: 8;
+      c4PS:
+          R1 = badHead_closure;
+          Sp = Sp + 8;
+          call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+    }
+}
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.055981 UTC
+
+[section ""data" . main3_closure" {
+     main3_closure:
+         const main3_info;
+         const 0;
+ },
+ section ""readonly" . c4Pk_str" {
+     c4Pk_str:
+         I8[] [115,114,99,47,77,97,105,110,46,104,115,58,50,51,58,52,48,45,54,51,124,99,97,115,101]
+ },
+ sat_entry() //  [R1]
+         { info_tbl: [(c4Py,
+                       label: sat_info
+                       rep:HeapRep 1 ptrs { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Py:
+           if ((Sp + -16) < SpLim) goto c4Pz; else goto c4PK;
+       c4Pz:
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4PK:
+           I64[Sp - 16] = stg_upd_frame_info;
+           P64[Sp - 8] = R1;
+           _s4MZ::P64 = P64[R1 + 16];
+           if (_s4MZ::P64 != _s4MZ::P64) goto c4Pw; else goto c4Px;
+       c4Pw:
+           R1 = False_closure+1;
+           Sp = Sp - 16;
+           call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+       c4Px:
+           R1 = True_closure+2;
+           Sp = Sp - 16;
+           call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+     }
+ },
+ main3_entry() //  []
+         { info_tbl: [(c4P3,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4P7,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4Pd,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4Pn,
+                       label: block_info
+                       rep:StackRep [False]),
+                      (c4PL,
+                       label: main3_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4PL:
+           if ((Sp + -16) < SpLim) goto c4PM; else goto c4PN;
+       c4PM:
+           R1 = main3_closure;
+           call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+       c4PN:
+           I64[Sp - 8] = c4P3;
+           Sp = Sp - 8;
+           call stg_noDuplicate#() returns to c4P3, args: 8, res: 8, upd: 8;
+       c4P3:
+           I64[Sp] = c4P7;
+           R1 = alfa_closure;
+           if (R1 & 7 != 0) goto c4P7; else goto c4P8;
+       c4P8:
+           call (I64[R1])(R1) returns to c4P7, args: 8, res: 8, upd: 8;
+       c4P7:
+           if (R1 & 7 != 1) goto c4PU; else goto c4PS;
+       c4PU:
+           I64[Sp] = c4Pd;
+           R1 = P64[R1 + 6];
+           if (R1 & 7 != 0) goto c4Pd; else goto c4Pe;
+       c4Pe:
+           call (I64[R1])(R1) returns to c4Pd, args: 8, res: 8, upd: 8;
+       c4Pd:
+           if (I64[R1 + 7] != 0) goto c4PX; else goto c4PY;
+       c4PX:
+           R2 = c4Pk_str;
+           Sp = Sp + 8;
+           call patError_info(R2) args: 8, res: 0, upd: 8;
+       c4PY:
+           I64[Sp - 8] = c4Pn;
+           P64[Sp] = R1;
+           Sp = Sp - 8;
+           _u4Q6::P64 = CurrentTSO;
+           I64[I64[_u4Q6::P64 + 24] + 16] = Sp;
+           _u4Q7::I64 = CurrentNursery;
+           P64[_u4Q7::I64 + 8] = Hp + 8;
+           I64[_u4Q6::P64 + 104] = I64[_u4Q6::P64 + 104] - ((Hp + 8) - I64[_u4Q7::I64]);
+           (_u4Q3::I64) = call "ccall" arg hints:  [PtrHint,]  result hints:  [PtrHint] suspendThread(BaseReg, 0);
+           call "ccall" arg hints:  []  result hints:  [] performMajorGC();
+           (_u4Q4::I64) = call "ccall" arg hints:  [PtrHint]  result hints:  [PtrHint] resumeThread(_u4Q3::I64);
+           BaseReg = _u4Q4::I64;
+           _u4Q6::P64 = CurrentTSO;
+           _u4Q5::P64 = I64[_u4Q6::P64 + 24];
+           Sp = I64[_u4Q5::P64 + 16];
+           SpLim = _u4Q5::P64 + 192;
+           HpAlloc = 0;
+           _u4Q7::I64 = CurrentNursery;
+           _u4Q8::I64 = I64[_u4Q7::I64 + 8];
+           Hp = _u4Q8::I64 - 8;
+           _u4Q9::I64 = I64[_u4Q7::I64];
+           HpLim = _u4Q9::I64 + ((%MO_SS_Conv_W32_W64(I32[_u4Q7::I64 + 48]) << 12) - 1);
+           I64[_u4Q6::P64 + 104] = I64[_u4Q6::P64 + 104] + (_u4Q8::I64 - _u4Q9::I64);
+           call (I64[Sp])() returns to c4Pn, args: 8, res: 8, upd: 8;
+       c4Pn:
+           Hp = Hp + 24;
+           if (Hp > HpLim) goto c4Q1; else goto c4Q0;
+       c4Q1:
+           HpAlloc = 24;
+           call stg_gc_noregs() returns to c4Pn, args: 8, res: 8, upd: 8;
+       c4Q0:
+           I64[Hp - 16] = sat_info;
+           P64[Hp] = P64[Sp + 8];
+           R1 = Hp - 16;
+           Sp = Sp + 16;
+           call (P64[Sp])(R1) args: 8, res: 0, upd: 8;
+       c4PS:
+           R1 = badHead_closure;
+           Sp = Sp + 8;
+           call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.057423 UTC
+
+[section ""data" . main3_closure" {
+     main3_closure:
+         const main3_info;
+         const 0;
+ },
+ section ""readonly" . c4Pk_str" {
+     c4Pk_str:
+         I8[] [115,114,99,47,77,97,105,110,46,104,115,58,50,51,58,52,48,45,54,51,124,99,97,115,101]
+ },
+ sat_entry() //  [R1]
+         { info_tbl: [(c4Py,
+                       label: sat_info
+                       rep:HeapRep 1 ptrs { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Py:
+           if ((Sp + -16) < SpLim) goto c4Pz; else goto c4PK;
+       c4Pz:
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4PK:
+           I64[Sp - 16] = stg_upd_frame_info;
+           P64[Sp - 8] = R1;
+           _s4MZ::P64 = P64[R1 + 16];
+           if (_s4MZ::P64 != _s4MZ::P64) goto c4Pw; else goto c4Px;
+       c4Pw:
+           R1 = False_closure+1;
+           Sp = Sp - 16;
+           call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+       c4Px:
+           R1 = True_closure+2;
+           Sp = Sp - 16;
+           call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+     }
+ },
+ main3_entry() //  []
+         { info_tbl: [(c4P3,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4P7,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4Pd,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4Pn,
+                       label: block_info
+                       rep:StackRep [False]),
+                      (c4PL,
+                       label: main3_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4PL:
+           if ((Sp + -16) < SpLim) goto c4PM; else goto c4PN;
+       c4PM:
+           R1 = main3_closure;
+           call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+       c4PN:
+           I64[Sp - 8] = c4P3;
+           Sp = Sp - 8;
+           call stg_noDuplicate#() returns to c4P3, args: 8, res: 8, upd: 8;
+       c4P3:
+           I64[Sp] = c4P7;
+           R1 = alfa_closure;
+           if (R1 & 7 != 0) goto c4P7; else goto c4P8;
+       c4P8:
+           call (I64[R1])(R1) returns to c4P7, args: 8, res: 8, upd: 8;
+       c4P7:
+           if (R1 & 7 != 1) goto c4PU; else goto c4PS;
+       c4PU:
+           I64[Sp] = c4Pd;
+           R1 = P64[R1 + 6];
+           if (R1 & 7 != 0) goto c4Pd; else goto c4Pe;
+       c4Pe:
+           call (I64[R1])(R1) returns to c4Pd, args: 8, res: 8, upd: 8;
+       c4Pd:
+           if (I64[R1 + 7] != 0) goto c4PX; else goto c4PY;
+       c4PX:
+           R2 = c4Pk_str;
+           Sp = Sp + 8;
+           call patError_info(R2) args: 8, res: 0, upd: 8;
+       c4PY:
+           I64[Sp - 8] = c4Pn;
+           P64[Sp] = R1;
+           Sp = Sp - 8;
+           _u4Q6::P64 = CurrentTSO;
+           I64[I64[_u4Q6::P64 + 24] + 16] = Sp;
+           _u4Q7::I64 = CurrentNursery;
+           P64[_u4Q7::I64 + 8] = Hp + 8;
+           I64[_u4Q6::P64 + 104] = I64[_u4Q6::P64 + 104] - ((Hp + 8) - I64[_u4Q7::I64]);
+           (_u4Q3::I64) = call "ccall" arg hints:  [PtrHint,]  result hints:  [PtrHint] suspendThread(BaseReg, 0);
+           call "ccall" arg hints:  []  result hints:  [] performMajorGC();
+           (_u4Q4::I64) = call "ccall" arg hints:  [PtrHint]  result hints:  [PtrHint] resumeThread(_u4Q3::I64);
+           BaseReg = _u4Q4::I64;
+           _u4Q6::P64 = CurrentTSO;
+           _u4Q5::P64 = I64[_u4Q6::P64 + 24];
+           Sp = I64[_u4Q5::P64 + 16];
+           SpLim = _u4Q5::P64 + 192;
+           HpAlloc = 0;
+           _u4Q7::I64 = CurrentNursery;
+           _u4Q8::I64 = I64[_u4Q7::I64 + 8];
+           Hp = _u4Q8::I64 - 8;
+           _u4Q9::I64 = I64[_u4Q7::I64];
+           HpLim = _u4Q9::I64 + ((%MO_SS_Conv_W32_W64(I32[_u4Q7::I64 + 48]) << 12) - 1);
+           I64[_u4Q6::P64 + 104] = I64[_u4Q6::P64 + 104] + (_u4Q8::I64 - _u4Q9::I64);
+           call (I64[Sp])() returns to c4Pn, args: 8, res: 8, upd: 8;
+       c4Pn:
+           Hp = Hp + 24;
+           if (Hp > HpLim) goto c4Q1; else goto c4Q0;
+       c4Q1:
+           HpAlloc = 24;
+           call stg_gc_noregs() returns to c4Pn, args: 8, res: 8, upd: 8;
+       c4Q0:
+           I64[Hp - 16] = sat_info;
+           P64[Hp] = P64[Sp + 8];
+           R1 = Hp - 16;
+           Sp = Sp + 16;
+           call (P64[Sp])(R1) args: 8, res: 0, upd: 8;
+       c4PS:
+           R1 = badHead_closure;
+           Sp = Sp + 8;
+           call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.060817 UTC
+
+[section ""data" . main2_closure" {
+     main2_closure:
+         const main2_info;
+         const 0;
+         const 0;
+         const 0;
+ },
+ main2_entry() //  [R1]
+         { info_tbl: [(c4QW,
+                       label: main2_info
+                       rep:HeapRep static { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4QW:
+           _r4MN::P64 = R1;
+           goto c4QI;
+       c4QI:
+           if ((old + 0) - <highSp> < SpLim) goto c4QX; else goto c4QY;
+       c4QX:
+           R1 = _r4MN::P64;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4QY:
+           (_c4QK::I64) = call "ccall" arg hints:  [PtrHint,
+                                                    PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _r4MN::P64);
+           if (_c4QK::I64 == 0) goto c4QM; else goto c4QL;
+       c4QM:
+           call (I64[_r4MN::P64])() args: 8, res: 0, upd: 8;
+       c4QL:
+           I64[(old + 24)] = stg_bh_upd_frame_info;
+           I64[(old + 16)] = _c4QK::I64;
+           I64[(young<c4QN> + 8)] = c4QN;
+           call main3_info() returns to c4QN, args: 8, res: 8, upd: 24;
+       c4QN:
+           _s4Na::P64 = R1;
+           I64[(young<c4QP> + 8)] = c4QP;
+           R1 = _s4Na::P64;
+           if (R1 & 7 != 0) goto c4QP; else goto c4QQ;
+       c4QQ:
+           call (I64[R1])(R1) returns to c4QP, args: 8, res: 8, upd: 24;
+       c4QP:
+           _s4Nb::P64 = R1;
+           _c4QV::P64 = _s4Nb::P64 & 7;
+           switch [1 .. 2] _c4QV::P64 {
+               case 1 : goto c4QT;
+               case 2 : goto c4QU;
+           }
+       c4QU:
+           R1 = shows17_closure;
+           call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+       c4QT:
+           R1 = shows18_closure;
+           call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+     }
+ }]
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.062463 UTC
+
+{offset
+  c4QW:
+      _r4MN::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4QX; else goto c4QY;
+  c4QX:
+      R1 = _r4MN::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4QY:
+      (_c4QK::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _r4MN::P64);
+      if (_c4QK::I64 == 0) goto c4QM; else goto c4QL;
+  c4QM:
+      call (I64[_r4MN::P64])() args: 8, res: 0, upd: 8;
+  c4QL:
+      I64[(old + 24)] = stg_bh_upd_frame_info;
+      I64[(old + 16)] = _c4QK::I64;
+      I64[(young<c4QN> + 8)] = c4QN;
+      call main3_info() returns to c4QN, args: 8, res: 8, upd: 24;
+  c4QN:
+      _s4Na::P64 = R1;
+      I64[(young<c4QP> + 8)] = c4QP;
+      R1 = _s4Na::P64;
+      if (R1 & 7 != 0) goto c4QP; else goto c4QQ;
+  c4QQ:
+      call (I64[R1])(R1) returns to c4QP, args: 8, res: 8, upd: 24;
+  c4QP:
+      _s4Nb::P64 = R1;
+      _c4QV::P64 = _s4Nb::P64 & 7;
+      switch [1 .. 2] _c4QV::P64 {
+          case 1 : goto c4QT;
+          case 2 : goto c4QU;
+      }
+  c4QU:
+      R1 = shows17_closure;
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+  c4QT:
+      R1 = shows18_closure;
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Post common block elimination ====================
+2017-10-20 12:58:11.063422 UTC
+
+{offset
+  c4QW:
+      _r4MN::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4QX; else goto c4QY;
+  c4QX:
+      R1 = _r4MN::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4QY:
+      (_c4QK::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _r4MN::P64);
+      if (_c4QK::I64 == 0) goto c4QM; else goto c4QL;
+  c4QM:
+      call (I64[_r4MN::P64])() args: 8, res: 0, upd: 8;
+  c4QL:
+      I64[(old + 24)] = stg_bh_upd_frame_info;
+      I64[(old + 16)] = _c4QK::I64;
+      I64[(young<c4QN> + 8)] = c4QN;
+      call main3_info() returns to c4QN, args: 8, res: 8, upd: 24;
+  c4QN:
+      _s4Na::P64 = R1;
+      I64[(young<c4QP> + 8)] = c4QP;
+      R1 = _s4Na::P64;
+      if (R1 & 7 != 0) goto c4QP; else goto c4QQ;
+  c4QQ:
+      call (I64[R1])(R1) returns to c4QP, args: 8, res: 8, upd: 24;
+  c4QP:
+      _s4Nb::P64 = R1;
+      _c4QV::P64 = _s4Nb::P64 & 7;
+      switch [1 .. 2] _c4QV::P64 {
+          case 1 : goto c4QT;
+          case 2 : goto c4QU;
+      }
+  c4QU:
+      R1 = shows17_closure;
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+  c4QT:
+      R1 = shows18_closure;
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Post switch plan ====================
+2017-10-20 12:58:11.06403 UTC
+
+{offset
+  c4QW:
+      _r4MN::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4QX; else goto c4QY;
+  c4QX:
+      R1 = _r4MN::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4QY:
+      (_c4QK::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _r4MN::P64);
+      if (_c4QK::I64 == 0) goto c4QM; else goto c4QL;
+  c4QM:
+      call (I64[_r4MN::P64])() args: 8, res: 0, upd: 8;
+  c4QL:
+      I64[(old + 24)] = stg_bh_upd_frame_info;
+      I64[(old + 16)] = _c4QK::I64;
+      I64[(young<c4QN> + 8)] = c4QN;
+      call main3_info() returns to c4QN, args: 8, res: 8, upd: 24;
+  c4QN:
+      _s4Na::P64 = R1;
+      I64[(young<c4QP> + 8)] = c4QP;
+      R1 = _s4Na::P64;
+      if (R1 & 7 != 0) goto c4QP; else goto c4QQ;
+  c4QQ:
+      call (I64[R1])(R1) returns to c4QP, args: 8, res: 8, upd: 24;
+  c4QP:
+      _s4Nb::P64 = R1;
+      _c4QV::P64 = _s4Nb::P64 & 7;
+      if (_c4QV::P64 != 1) goto c4QU; else goto c4QT;
+  c4QU:
+      R1 = shows17_closure;
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+  c4QT:
+      R1 = shows18_closure;
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Layout Stack ====================
+2017-10-20 12:58:11.064684 UTC
+
+{offset
+  c4QW:
+      _r4MN::P64 = R1;
+      if ((Sp + 8) - 32 < SpLim) goto c4QX; else goto c4QY;
+  c4QX:
+      R1 = _r4MN::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4QY:
+      (_c4QK::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _r4MN::P64);
+      if (_c4QK::I64 == 0) goto c4QM; else goto c4QL;
+  c4QM:
+      call (I64[_r4MN::P64])() args: 8, res: 0, upd: 8;
+  c4QL:
+      I64[Sp - 16] = stg_bh_upd_frame_info;
+      I64[Sp - 8] = _c4QK::I64;
+      I64[Sp - 24] = c4QN;
+      Sp = Sp - 24;
+      call main3_info() returns to c4QN, args: 8, res: 8, upd: 24;
+  c4QN:
+      _s4Na::P64 = R1;
+      I64[Sp] = c4QP;
+      R1 = _s4Na::P64;
+      if (R1 & 7 != 0) goto c4QP; else goto c4QQ;
+  c4QQ:
+      call (I64[R1])(R1) returns to c4QP, args: 8, res: 8, upd: 24;
+  c4QP:
+      _s4Nb::P64 = R1;
+      _c4QV::P64 = _s4Nb::P64 & 7;
+      if (_c4QV::P64 != 1) goto c4QU; else goto c4QT;
+  c4QU:
+      R1 = shows17_closure;
+      Sp = Sp + 8;
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+  c4QT:
+      R1 = shows18_closure;
+      Sp = Sp + 8;
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Sink assignments ====================
+2017-10-20 12:58:11.065504 UTC
+
+{offset
+  c4QW:
+      if ((Sp + -24) < SpLim) goto c4QX; else goto c4QY;
+  c4QX:
+      R1 = R1;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4QY:
+      (_c4QK::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+      if (_c4QK::I64 == 0) goto c4QM; else goto c4QL;
+  c4QM:
+      call (I64[R1])() args: 8, res: 0, upd: 8;
+  c4QL:
+      I64[Sp - 16] = stg_bh_upd_frame_info;
+      I64[Sp - 8] = _c4QK::I64;
+      I64[Sp - 24] = c4QN;
+      Sp = Sp - 24;
+      call main3_info() returns to c4QN, args: 8, res: 8, upd: 24;
+  c4QN:
+      I64[Sp] = c4QP;
+      R1 = R1;
+      if (R1 & 7 != 0) goto c4QP; else goto c4QQ;
+  c4QQ:
+      call (I64[R1])(R1) returns to c4QP, args: 8, res: 8, upd: 24;
+  c4QP:
+      if (R1 & 7 != 1) goto c4QU; else goto c4QT;
+  c4QU:
+      R1 = shows17_closure;
+      Sp = Sp + 8;
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+  c4QT:
+      R1 = shows18_closure;
+      Sp = Sp + 8;
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== CAFEnv ====================
+2017-10-20 12:58:11.066135 UTC
+
+[(c4QL, {shows17_closure, shows18_closure, main3_closure}),
+ (c4QM, {}), (c4QN, {shows17_closure, shows18_closure}),
+ (c4QP, {shows17_closure, shows18_closure}),
+ (c4QQ, {shows17_closure, shows18_closure}),
+ (c4QT, {shows18_closure}), (c4QU, {shows17_closure}),
+ (c4QW, {shows17_closure, shows18_closure, main3_closure}),
+ (c4QX, {}),
+ (c4QY, {shows17_closure, shows18_closure, main3_closure})]
+
+
+==================== after setInfoTableStackMap ====================
+2017-10-20 12:58:11.066621 UTC
+
+main2_entry() //  [R1]
+        { info_tbl: [(c4QN,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4QP,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4QW,
+                      label: main2_info
+                      rep:HeapRep static { Thunk })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4QW:
+          if ((Sp + -24) < SpLim) goto c4QX; else goto c4QY;
+      c4QX:
+          R1 = R1;
+          call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+      c4QY:
+          (_c4QK::I64) = call "ccall" arg hints:  [PtrHint,
+                                                   PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+          if (_c4QK::I64 == 0) goto c4QM; else goto c4QL;
+      c4QM:
+          call (I64[R1])() args: 8, res: 0, upd: 8;
+      c4QL:
+          I64[Sp - 16] = stg_bh_upd_frame_info;
+          I64[Sp - 8] = _c4QK::I64;
+          I64[Sp - 24] = c4QN;
+          Sp = Sp - 24;
+          call main3_info() returns to c4QN, args: 8, res: 8, upd: 24;
+      c4QN:
+          I64[Sp] = c4QP;
+          R1 = R1;
+          if (R1 & 7 != 0) goto c4QP; else goto c4QQ;
+      c4QQ:
+          call (I64[R1])(R1) returns to c4QP, args: 8, res: 8, upd: 24;
+      c4QP:
+          if (R1 & 7 != 1) goto c4QU; else goto c4QT;
+      c4QU:
+          R1 = shows17_closure;
+          Sp = Sp + 8;
+          call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+      c4QT:
+          R1 = shows18_closure;
+          Sp = Sp + 8;
+          call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+    }
+}
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.067194 UTC
+
+main2_entry() //  [R1]
+        { info_tbl: [(c4QN,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4QP,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4QW,
+                      label: main2_info
+                      rep:HeapRep static { Thunk })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4QW:
+          if ((Sp + -24) < SpLim) goto c4QX; else goto c4QY;
+      c4QX:
+          R1 = R1;
+          call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+      c4QY:
+          (_c4QK::I64) = call "ccall" arg hints:  [PtrHint,
+                                                   PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+          if (_c4QK::I64 == 0) goto c4QM; else goto c4QL;
+      c4QM:
+          call (I64[R1])() args: 8, res: 0, upd: 8;
+      c4QL:
+          I64[Sp - 16] = stg_bh_upd_frame_info;
+          I64[Sp - 8] = _c4QK::I64;
+          I64[Sp - 24] = c4QN;
+          Sp = Sp - 24;
+          call main3_info() returns to c4QN, args: 8, res: 8, upd: 24;
+      c4QN:
+          I64[Sp] = c4QP;
+          R1 = R1;
+          if (R1 & 7 != 0) goto c4QP; else goto c4QQ;
+      c4QQ:
+          call (I64[R1])(R1) returns to c4QP, args: 8, res: 8, upd: 24;
+      c4QP:
+          if (R1 & 7 != 1) goto c4QU; else goto c4QT;
+      c4QU:
+          R1 = shows17_closure;
+          Sp = Sp + 8;
+          call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+      c4QT:
+          R1 = shows18_closure;
+          Sp = Sp + 8;
+          call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+    }
+}
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.067939 UTC
+
+[section ""data" . main2_closure" {
+     main2_closure:
+         const main2_info;
+         const 0;
+         const 0;
+         const 0;
+ },
+ main2_entry() //  [R1]
+         { info_tbl: [(c4QN,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4QP,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4QW,
+                       label: main2_info
+                       rep:HeapRep static { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4QW:
+           if ((Sp + -24) < SpLim) goto c4QX; else goto c4QY;
+       c4QX:
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4QY:
+           (_c4QK::I64) = call "ccall" arg hints:  [PtrHint,
+                                                    PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+           if (_c4QK::I64 == 0) goto c4QM; else goto c4QL;
+       c4QM:
+           call (I64[R1])() args: 8, res: 0, upd: 8;
+       c4QL:
+           I64[Sp - 16] = stg_bh_upd_frame_info;
+           I64[Sp - 8] = _c4QK::I64;
+           I64[Sp - 24] = c4QN;
+           Sp = Sp - 24;
+           call main3_info() returns to c4QN, args: 8, res: 8, upd: 24;
+       c4QN:
+           I64[Sp] = c4QP;
+           R1 = R1;
+           if (R1 & 7 != 0) goto c4QP; else goto c4QQ;
+       c4QQ:
+           call (I64[R1])(R1) returns to c4QP, args: 8, res: 8, upd: 24;
+       c4QP:
+           if (R1 & 7 != 1) goto c4QU; else goto c4QT;
+       c4QU:
+           R1 = shows17_closure;
+           Sp = Sp + 8;
+           call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+       c4QT:
+           R1 = shows18_closure;
+           Sp = Sp + 8;
+           call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.068591 UTC
+
+[section ""data" . main2_closure" {
+     main2_closure:
+         const main2_info;
+         const 0;
+         const 0;
+         const 0;
+ },
+ main2_entry() //  [R1]
+         { info_tbl: [(c4QN,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4QP,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4QW,
+                       label: main2_info
+                       rep:HeapRep static { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4QW:
+           if ((Sp + -24) < SpLim) goto c4QX; else goto c4QY;
+       c4QX:
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4QY:
+           (_c4QK::I64) = call "ccall" arg hints:  [PtrHint,
+                                                    PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+           if (_c4QK::I64 == 0) goto c4QM; else goto c4QL;
+       c4QM:
+           call (I64[R1])() args: 8, res: 0, upd: 8;
+       c4QL:
+           I64[Sp - 16] = stg_bh_upd_frame_info;
+           I64[Sp - 8] = _c4QK::I64;
+           I64[Sp - 24] = c4QN;
+           Sp = Sp - 24;
+           call main3_info() returns to c4QN, args: 8, res: 8, upd: 24;
+       c4QN:
+           I64[Sp] = c4QP;
+           R1 = R1;
+           if (R1 & 7 != 0) goto c4QP; else goto c4QQ;
+       c4QQ:
+           call (I64[R1])(R1) returns to c4QP, args: 8, res: 8, upd: 24;
+       c4QP:
+           if (R1 & 7 != 1) goto c4QU; else goto c4QT;
+       c4QU:
+           R1 = shows17_closure;
+           Sp = Sp + 8;
+           call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+       c4QT:
+           R1 = shows18_closure;
+           Sp = Sp + 8;
+           call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+     }
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.070122 UTC
+
+[section ""data" . main1_closure" {
+     main1_closure:
+         const main1_info;
+         const 0;
+ },
+ main1_entry() //  []
+         { info_tbl: [(c4Rk,
+                       label: main1_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Rk:
+           goto c4Ri;
+       c4Ri:
+           if ((old + 0) - <highSp> < SpLim) goto c4Rl; else goto c4Rm;
+       c4Rl:
+           R1 = main1_closure;
+           call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+       c4Rm:
+           goto c4Rh;
+       c4Rh:
+           R4 = True_closure+2;
+           R3 = main2_closure;
+           R2 = stdout_closure;
+           call hPutStr2_info(R4, R3, R2) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.070668 UTC
+
+{offset
+  c4Rk:
+      if ((old + 0) - <highSp> < SpLim) goto c4Rl; else goto c4Rm;
+  c4Rl:
+      R1 = main1_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4Rm:
+      R4 = True_closure+2;
+      R3 = main2_closure;
+      R2 = stdout_closure;
+      call hPutStr2_info(R4, R3, R2) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Post common block elimination ====================
+2017-10-20 12:58:11.071188 UTC
+
+{offset
+  c4Rk:
+      if ((old + 0) - <highSp> < SpLim) goto c4Rl; else goto c4Rm;
+  c4Rl:
+      R1 = main1_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4Rm:
+      R4 = True_closure+2;
+      R3 = main2_closure;
+      R2 = stdout_closure;
+      call hPutStr2_info(R4, R3, R2) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Post switch plan ====================
+2017-10-20 12:58:11.071449 UTC
+
+{offset
+  c4Rk:
+      if ((old + 0) - <highSp> < SpLim) goto c4Rl; else goto c4Rm;
+  c4Rl:
+      R1 = main1_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4Rm:
+      R4 = True_closure+2;
+      R3 = main2_closure;
+      R2 = stdout_closure;
+      call hPutStr2_info(R4, R3, R2) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Layout Stack ====================
+2017-10-20 12:58:11.071712 UTC
+
+{offset
+  c4Rk:
+      goto c4Rm;
+  c4Rm:
+      R4 = True_closure+2;
+      R3 = main2_closure;
+      R2 = stdout_closure;
+      call hPutStr2_info(R4, R3, R2) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Sink assignments ====================
+2017-10-20 12:58:11.071941 UTC
+
+{offset
+  c4Rk:
+      goto c4Rm;
+  c4Rm:
+      R4 = True_closure+2;
+      R3 = main2_closure;
+      R2 = stdout_closure;
+      call hPutStr2_info(R4, R3, R2) args: 8, res: 0, upd: 8;
+}
+
+
+==================== CAFEnv ====================
+2017-10-20 12:58:11.072206 UTC
+
+[(c4Rk, {hPutStr2_closure, stdout_closure, main2_closure}),
+ (c4Rm, {hPutStr2_closure, stdout_closure, main2_closure})]
+
+
+==================== after setInfoTableStackMap ====================
+2017-10-20 12:58:11.072422 UTC
+
+main1_entry() //  []
+        { info_tbl: [(c4Rk,
+                      label: main1_info
+                      rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4Rk:
+          goto c4Rm;
+      c4Rm:
+          R4 = True_closure+2;
+          R3 = main2_closure;
+          R2 = stdout_closure;
+          call hPutStr2_info(R4, R3, R2) args: 8, res: 0, upd: 8;
+    }
+}
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.072828 UTC
+
+main1_entry() //  []
+        { info_tbl: [(c4Rk,
+                      label: main1_info
+                      rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4Rk:
+          R4 = True_closure+2;
+          R3 = main2_closure;
+          R2 = stdout_closure;
+          call hPutStr2_info(R4, R3, R2) args: 8, res: 0, upd: 8;
+    }
+}
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.07333 UTC
+
+[section ""data" . main1_closure" {
+     main1_closure:
+         const main1_info;
+         const 0;
+ },
+ main1_entry() //  []
+         { info_tbl: [(c4Rk,
+                       label: main1_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Rk:
+           R4 = True_closure+2;
+           R3 = main2_closure;
+           R2 = stdout_closure;
+           call hPutStr2_info(R4, R3, R2) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.073669 UTC
+
+[section ""data" . main1_closure" {
+     main1_closure:
+         const main1_info;
+         const 0;
+ },
+ main1_entry() //  []
+         { info_tbl: [(c4Rk,
+                       label: main1_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Rk:
+           R4 = True_closure+2;
+           R3 = main2_closure;
+           R2 = stdout_closure;
+           call hPutStr2_info(R4, R3, R2) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.074267 UTC
+
+[section ""data" . main_closure" {
+     main_closure:
+         const main_info;
+         const 0;
+ },
+ main_entry() //  []
+         { info_tbl: [(c4Ru,
+                       label: main_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Ru:
+           goto c4Rs;
+       c4Rs:
+           if ((old + 0) - <highSp> < SpLim) goto c4Rv; else goto c4Rw;
+       c4Rv:
+           R1 = main_closure;
+           call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+       c4Rw:
+           goto c4Rr;
+       c4Rr:
+           call main1_info() args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.074708 UTC
+
+{offset
+  c4Ru:
+      if ((old + 0) - <highSp> < SpLim) goto c4Rv; else goto c4Rw;
+  c4Rv:
+      R1 = main_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4Rw:
+      call main1_info() args: 8, res: 0, upd: 8;
+}
+
+
+==================== Post common block elimination ====================
+2017-10-20 12:58:11.075181 UTC
+
+{offset
+  c4Ru:
+      if ((old + 0) - <highSp> < SpLim) goto c4Rv; else goto c4Rw;
+  c4Rv:
+      R1 = main_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4Rw:
+      call main1_info() args: 8, res: 0, upd: 8;
+}
+
+
+==================== Post switch plan ====================
+2017-10-20 12:58:11.075454 UTC
+
+{offset
+  c4Ru:
+      if ((old + 0) - <highSp> < SpLim) goto c4Rv; else goto c4Rw;
+  c4Rv:
+      R1 = main_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4Rw:
+      call main1_info() args: 8, res: 0, upd: 8;
+}
+
+
+==================== Layout Stack ====================
+2017-10-20 12:58:11.075714 UTC
+
+{offset
+  c4Ru:
+      goto c4Rw;
+  c4Rw:
+      call main1_info() args: 8, res: 0, upd: 8;
+}
+
+
+==================== Sink assignments ====================
+2017-10-20 12:58:11.075895 UTC
+
+{offset
+  c4Ru:
+      goto c4Rw;
+  c4Rw:
+      call main1_info() args: 8, res: 0, upd: 8;
+}
+
+
+==================== CAFEnv ====================
+2017-10-20 12:58:11.076096 UTC
+
+[(c4Ru, {main1_closure}), (c4Rw, {main1_closure})]
+
+
+==================== after setInfoTableStackMap ====================
+2017-10-20 12:58:11.076279 UTC
+
+main_entry() //  []
+        { info_tbl: [(c4Ru,
+                      label: main_info
+                      rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4Ru:
+          goto c4Rw;
+      c4Rw:
+          call main1_info() args: 8, res: 0, upd: 8;
+    }
+}
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.076526 UTC
+
+main_entry() //  []
+        { info_tbl: [(c4Ru,
+                      label: main_info
+                      rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4Ru:
+          call main1_info() args: 8, res: 0, upd: 8;
+    }
+}
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.076834 UTC
+
+[section ""data" . main_closure" {
+     main_closure:
+         const main_info;
+         const 0;
+ },
+ main_entry() //  []
+         { info_tbl: [(c4Ru,
+                       label: main_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Ru:
+           call main1_info() args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.07733 UTC
+
+[section ""data" . main_closure" {
+     main_closure:
+         const main_info;
+         const 0;
+ },
+ main_entry() //  []
+         { info_tbl: [(c4Ru,
+                       label: main_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Ru:
+           call main1_info() args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.077751 UTC
+
+[section ""data" . main4_closure" {
+     main4_closure:
+         const main4_info;
+         const 0;
+ },
+ main4_entry() //  []
+         { info_tbl: [(c4RE,
+                       label: main4_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4RE:
+           goto c4RC;
+       c4RC:
+           if ((old + 0) - <highSp> < SpLim) goto c4RF; else goto c4RG;
+       c4RF:
+           R1 = main4_closure;
+           call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+       c4RG:
+           goto c4RB;
+       c4RB:
+           R2 = main1_closure+1;
+           call runMainIO1_info(R2) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.078166 UTC
+
+{offset
+  c4RE:
+      if ((old + 0) - <highSp> < SpLim) goto c4RF; else goto c4RG;
+  c4RF:
+      R1 = main4_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4RG:
+      R2 = main1_closure+1;
+      call runMainIO1_info(R2) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Post common block elimination ====================
+2017-10-20 12:58:11.078419 UTC
+
+{offset
+  c4RE:
+      if ((old + 0) - <highSp> < SpLim) goto c4RF; else goto c4RG;
+  c4RF:
+      R1 = main4_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4RG:
+      R2 = main1_closure+1;
+      call runMainIO1_info(R2) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Post switch plan ====================
+2017-10-20 12:58:11.078654 UTC
+
+{offset
+  c4RE:
+      if ((old + 0) - <highSp> < SpLim) goto c4RF; else goto c4RG;
+  c4RF:
+      R1 = main4_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4RG:
+      R2 = main1_closure+1;
+      call runMainIO1_info(R2) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Layout Stack ====================
+2017-10-20 12:58:11.079175 UTC
+
+{offset
+  c4RE:
+      goto c4RG;
+  c4RG:
+      R2 = main1_closure+1;
+      call runMainIO1_info(R2) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Sink assignments ====================
+2017-10-20 12:58:11.079401 UTC
+
+{offset
+  c4RE:
+      goto c4RG;
+  c4RG:
+      R2 = main1_closure+1;
+      call runMainIO1_info(R2) args: 8, res: 0, upd: 8;
+}
+
+
+==================== CAFEnv ====================
+2017-10-20 12:58:11.079591 UTC
+
+[(c4RE, {runMainIO1_closure, main1_closure}),
+ (c4RG, {runMainIO1_closure, main1_closure})]
+
+
+==================== after setInfoTableStackMap ====================
+2017-10-20 12:58:11.079772 UTC
+
+main4_entry() //  []
+        { info_tbl: [(c4RE,
+                      label: main4_info
+                      rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4RE:
+          goto c4RG;
+      c4RG:
+          R2 = main1_closure+1;
+          call runMainIO1_info(R2) args: 8, res: 0, upd: 8;
+    }
+}
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.080002 UTC
+
+main4_entry() //  []
+        { info_tbl: [(c4RE,
+                      label: main4_info
+                      rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4RE:
+          R2 = main1_closure+1;
+          call runMainIO1_info(R2) args: 8, res: 0, upd: 8;
+    }
+}
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.080228 UTC
+
+[section ""data" . main4_closure" {
+     main4_closure:
+         const main4_info;
+         const 0;
+ },
+ main4_entry() //  []
+         { info_tbl: [(c4RE,
+                       label: main4_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4RE:
+           R2 = main1_closure+1;
+           call runMainIO1_info(R2) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.080744 UTC
+
+[section ""data" . main4_closure" {
+     main4_closure:
+         const main4_info;
+         const 0;
+ },
+ main4_entry() //  []
+         { info_tbl: [(c4RE,
+                       label: main4_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4RE:
+           R2 = main1_closure+1;
+           call runMainIO1_info(R2) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.081262 UTC
+
+[section ""data" . main_closure" {
+     main_closure:
+         const main_info;
+         const 0;
+ },
+ main_entry() //  []
+         { info_tbl: [(c4RO,
+                       label: main_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4RO:
+           goto c4RM;
+       c4RM:
+           if ((old + 0) - <highSp> < SpLim) goto c4RP; else goto c4RQ;
+       c4RP:
+           R1 = main_closure;
+           call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+       c4RQ:
+           goto c4RL;
+       c4RL:
+           call main4_info() args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.081693 UTC
+
+{offset
+  c4RO:
+      if ((old + 0) - <highSp> < SpLim) goto c4RP; else goto c4RQ;
+  c4RP:
+      R1 = main_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4RQ:
+      call main4_info() args: 8, res: 0, upd: 8;
+}
+
+
+==================== Post common block elimination ====================
+2017-10-20 12:58:11.081922 UTC
+
+{offset
+  c4RO:
+      if ((old + 0) - <highSp> < SpLim) goto c4RP; else goto c4RQ;
+  c4RP:
+      R1 = main_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4RQ:
+      call main4_info() args: 8, res: 0, upd: 8;
+}
+
+
+==================== Post switch plan ====================
+2017-10-20 12:58:11.082134 UTC
+
+{offset
+  c4RO:
+      if ((old + 0) - <highSp> < SpLim) goto c4RP; else goto c4RQ;
+  c4RP:
+      R1 = main_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4RQ:
+      call main4_info() args: 8, res: 0, upd: 8;
+}
+
+
+==================== Layout Stack ====================
+2017-10-20 12:58:11.082624 UTC
+
+{offset
+  c4RO:
+      goto c4RQ;
+  c4RQ:
+      call main4_info() args: 8, res: 0, upd: 8;
+}
+
+
+==================== Sink assignments ====================
+2017-10-20 12:58:11.082797 UTC
+
+{offset
+  c4RO:
+      goto c4RQ;
+  c4RQ:
+      call main4_info() args: 8, res: 0, upd: 8;
+}
+
+
+==================== CAFEnv ====================
+2017-10-20 12:58:11.083077 UTC
+
+[(c4RO, {main4_closure}), (c4RQ, {main4_closure})]
+
+
+==================== after setInfoTableStackMap ====================
+2017-10-20 12:58:11.083276 UTC
+
+main_entry() //  []
+        { info_tbl: [(c4RO,
+                      label: main_info
+                      rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4RO:
+          goto c4RQ;
+      c4RQ:
+          call main4_info() args: 8, res: 0, upd: 8;
+    }
+}
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.083502 UTC
+
+main_entry() //  []
+        { info_tbl: [(c4RO,
+                      label: main_info
+                      rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4RO:
+          call main4_info() args: 8, res: 0, upd: 8;
+    }
+}
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.083732 UTC
+
+[section ""data" . main_closure" {
+     main_closure:
+         const main_info;
+         const 0;
+ },
+ main_entry() //  []
+         { info_tbl: [(c4RO,
+                       label: main_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4RO:
+           call main4_info() args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.084003 UTC
+
+[section ""data" . main_closure" {
+     main_closure:
+         const main_info;
+         const 0;
+ },
+ main_entry() //  []
+         { info_tbl: [(c4RO,
+                       label: main_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4RO:
+           call main4_info() args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.084685 UTC
+
+[section ""data" . external1_closure" {
+     external1_closure:
+         const external1_info;
+         const 0;
+ },
+ section ""readonly" . c4Sf_str" {
+     c4Sf_str:
+         I8[] [115,114,99,47,77,97,105,110,46,104,115,58,50,55,58,52,48,45,54,51,124,99,97,115,101]
+ },
+ sat_entry() //  [R1]
+         { info_tbl: [(c4St,
+                       label: sat_info
+                       rep:HeapRep 1 ptrs { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4St:
+           _s4Nr::P64 = R1;
+           goto c4Sm;
+       c4Sm:
+           if ((old + 0) - <highSp> < SpLim) goto c4Su; else goto c4SF;
+       c4Su:
+           R1 = _s4Nr::P64;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4SF:
+           I64[(old + 24)] = stg_upd_frame_info;
+           P64[(old + 16)] = _s4Nr::P64;
+           _s4Nj::P64 = P64[_s4Nr::P64 + 16];
+           _c4So::I64 = _s4Nj::P64 == _s4Nj::P64;
+           _s4Nq::I64 = _c4So::I64;
+           switch [-9223372036854775808 .. 9223372036854775807] _s4Nq::I64 {
+               case 1 : goto c4Ss;
+               default: goto c4Sr;
+           }
+       c4Ss:
+           goto c4SC;
+       c4SC:
+           R1 = True_closure+2;
+           call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+       c4Sr:
+           goto c4Sx;
+       c4Sx:
+           R1 = False_closure+1;
+           call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+     }
+ },
+ external1_entry() //  []
+         { info_tbl: [(c4SG,
+                       label: external1_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4SG:
+           goto c4RW;
+       c4RW:
+           if ((old + 0) - <highSp> < SpLim) goto c4SH; else goto c4SI;
+       c4SH:
+           R1 = external1_closure;
+           call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+       c4SI:
+           goto c4RV;
+       c4RV:
+           I64[(young<c4RY> + 8)] = c4RY;
+           call stg_noDuplicate#() returns to c4RY, args: 8, res: 8, upd: 8;
+       c4RY:
+           I64[(young<c4S2> + 8)] = c4S2;
+           R1 = alfa_closure;
+           if (R1 & 7 != 0) goto c4S2; else goto c4S3;
+       c4S3:
+           call (I64[R1])(R1) returns to c4S2, args: 8, res: 8, upd: 8;
+       c4S2:
+           _s4Nf::P64 = R1;
+           _c4SX::P64 = _s4Nf::P64 & 7;
+           switch [1 .. 2] _c4SX::P64 {
+               case 1 : goto c4SN;
+               case 2 : goto c4SP;
+           }
+       c4SP:
+           _s4Nh::P64 = P64[_s4Nf::P64 + 6];
+           _s4Ni::P64 = P64[_s4Nf::P64 + 14];
+           I64[(young<c4S8> + 8)] = c4S8;
+           R1 = _s4Nh::P64;
+           if (R1 & 7 != 0) goto c4S8; else goto c4S9;
+       c4S9:
+           call (I64[R1])(R1) returns to c4S8, args: 8, res: 8, upd: 8;
+       c4S8:
+           _s4Nj::P64 = R1;
+           _s4Nk::I64 = I64[_s4Nj::P64 + 7];
+           _s4Nl::I64 = _s4Nk::I64;
+           switch [-9223372036854775808 .. 9223372036854775807] _s4Nl::I64 {
+               case 0 : goto c4ST;
+               default: goto c4SS;
+           }
+       c4ST:
+           _c4Sh::I64 = performMajorGC;
+           I64[(young<c4Si> + 8)] = c4Si;
+           foreign call "ccall" arg hints:  []  result hints:  [] (_c4Sh::I64)(...) returns to c4Si args: ([]) ress: ([])ret_args: 8ret_off: 8;
+       c4Si:
+           Hp = Hp + 24;
+           if (Hp > HpLim) goto c4SW; else goto c4SV;
+       c4SW:
+           HpAlloc = 24;
+           goto c4SU;
+       c4SU:
+           call stg_gc_noregs() returns to c4Si, args: 8, res: 8, upd: 8;
+       c4SV:
+           I64[Hp - 16] = sat_info;
+           P64[Hp] = _s4Nj::P64;
+           _c4Sk::P64 = Hp - 16;
+           R1 = _c4Sk::P64;
+           call (P64[(old + 8)])(R1) args: 8, res: 0, upd: 8;
+       c4SS:
+           R2 = c4Sf_str;
+           call patError_info(R2) args: 8, res: 0, upd: 8;
+       c4SN:
+           R1 = badHead_closure;
+           call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.08654 UTC
+
+{offset
+  c4St:
+      _s4Nr::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4Su; else goto c4SF;
+  c4Su:
+      R1 = _s4Nr::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4SF:
+      I64[(old + 24)] = stg_upd_frame_info;
+      P64[(old + 16)] = _s4Nr::P64;
+      _s4Nj::P64 = P64[_s4Nr::P64 + 16];
+      _c4So::I64 = _s4Nj::P64 == _s4Nj::P64;
+      _s4Nq::I64 = _c4So::I64;
+      switch [-9223372036854775808 .. 9223372036854775807] _s4Nq::I64 {
+          case 1 : goto c4Ss;
+          default: goto c4Sr;
+      }
+  c4Ss:
+      R1 = True_closure+2;
+      call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+  c4Sr:
+      R1 = False_closure+1;
+      call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Post common block elimination ====================
+2017-10-20 12:58:11.086968 UTC
+
+{offset
+  c4St:
+      _s4Nr::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4Su; else goto c4SF;
+  c4Su:
+      R1 = _s4Nr::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4SF:
+      I64[(old + 24)] = stg_upd_frame_info;
+      P64[(old + 16)] = _s4Nr::P64;
+      _s4Nj::P64 = P64[_s4Nr::P64 + 16];
+      _c4So::I64 = _s4Nj::P64 == _s4Nj::P64;
+      _s4Nq::I64 = _c4So::I64;
+      switch [-9223372036854775808 .. 9223372036854775807] _s4Nq::I64 {
+          case 1 : goto c4Ss;
+          default: goto c4Sr;
+      }
+  c4Ss:
+      R1 = True_closure+2;
+      call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+  c4Sr:
+      R1 = False_closure+1;
+      call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Post switch plan ====================
+2017-10-20 12:58:11.087553 UTC
+
+{offset
+  c4St:
+      _s4Nr::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4Su; else goto c4SF;
+  c4Su:
+      R1 = _s4Nr::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4SF:
+      I64[(old + 24)] = stg_upd_frame_info;
+      P64[(old + 16)] = _s4Nr::P64;
+      _s4Nj::P64 = P64[_s4Nr::P64 + 16];
+      _c4So::I64 = _s4Nj::P64 == _s4Nj::P64;
+      _s4Nq::I64 = _c4So::I64;
+      if (_s4Nq::I64 != 1) goto c4Sr; else goto c4Ss;
+  c4Sr:
+      R1 = False_closure+1;
+      call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+  c4Ss:
+      R1 = True_closure+2;
+      call (P64[(old + 24)])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Layout Stack ====================
+2017-10-20 12:58:11.087937 UTC
+
+{offset
+  c4St:
+      _s4Nr::P64 = R1;
+      if ((Sp + 8) - 24 < SpLim) goto c4Su; else goto c4SF;
+  c4Su:
+      R1 = _s4Nr::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4SF:
+      I64[Sp - 16] = stg_upd_frame_info;
+      P64[Sp - 8] = _s4Nr::P64;
+      _s4Nj::P64 = P64[_s4Nr::P64 + 16];
+      _c4So::I64 = _s4Nj::P64 == _s4Nj::P64;
+      _s4Nq::I64 = _c4So::I64;
+      if (_s4Nq::I64 != 1) goto c4Sr; else goto c4Ss;
+  c4Sr:
+      R1 = False_closure+1;
+      Sp = Sp - 16;
+      call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+  c4Ss:
+      R1 = True_closure+2;
+      Sp = Sp - 16;
+      call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Sink assignments ====================
+2017-10-20 12:58:11.088276 UTC
+
+{offset
+  c4St:
+      if ((Sp + -16) < SpLim) goto c4Su; else goto c4SF;
+  c4Su:
+      R1 = R1;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4SF:
+      I64[Sp - 16] = stg_upd_frame_info;
+      P64[Sp - 8] = R1;
+      _s4Nj::P64 = P64[R1 + 16];
+      if (_s4Nj::P64 != _s4Nj::P64) goto c4Sr; else goto c4Ss;
+  c4Sr:
+      R1 = False_closure+1;
+      Sp = Sp - 16;
+      call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+  c4Ss:
+      R1 = True_closure+2;
+      Sp = Sp - 16;
+      call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== CAFEnv ====================
+2017-10-20 12:58:11.088832 UTC
+
+[(c4Sr, {}), (c4Ss, {}), (c4St, {}), (c4Su, {}), (c4SF, {})]
+
+
+==================== after setInfoTableStackMap ====================
+2017-10-20 12:58:11.089117 UTC
+
+sat_entry() //  [R1]
+        { info_tbl: [(c4St,
+                      label: sat_info
+                      rep:HeapRep 1 ptrs { Thunk })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4St:
+          if ((Sp + -16) < SpLim) goto c4Su; else goto c4SF;
+      c4Su:
+          R1 = R1;
+          call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+      c4SF:
+          I64[Sp - 16] = stg_upd_frame_info;
+          P64[Sp - 8] = R1;
+          _s4Nj::P64 = P64[R1 + 16];
+          if (_s4Nj::P64 != _s4Nj::P64) goto c4Sr; else goto c4Ss;
+      c4Sr:
+          R1 = False_closure+1;
+          Sp = Sp - 16;
+          call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+      c4Ss:
+          R1 = True_closure+2;
+          Sp = Sp - 16;
+          call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+    }
+}
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.089516 UTC
+
+sat_entry() //  [R1]
+        { info_tbl: [(c4St,
+                      label: sat_info
+                      rep:HeapRep 1 ptrs { Thunk })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4St:
+          if ((Sp + -16) < SpLim) goto c4Su; else goto c4SF;
+      c4Su:
+          R1 = R1;
+          call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+      c4SF:
+          I64[Sp - 16] = stg_upd_frame_info;
+          P64[Sp - 8] = R1;
+          _s4Nj::P64 = P64[R1 + 16];
+          if (_s4Nj::P64 != _s4Nj::P64) goto c4Sr; else goto c4Ss;
+      c4Sr:
+          R1 = False_closure+1;
+          Sp = Sp - 16;
+          call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+      c4Ss:
+          R1 = True_closure+2;
+          Sp = Sp - 16;
+          call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+    }
+}
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.090072 UTC
+
+{offset
+  c4SG:
+      if ((old + 0) - <highSp> < SpLim) goto c4SH; else goto c4SI;
+  c4SH:
+      R1 = external1_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4SI:
+      I64[(young<c4RY> + 8)] = c4RY;
+      call stg_noDuplicate#() returns to c4RY, args: 8, res: 8, upd: 8;
+  c4RY:
+      I64[(young<c4S2> + 8)] = c4S2;
+      R1 = alfa_closure;
+      if (R1 & 7 != 0) goto c4S2; else goto c4S3;
+  c4S3:
+      call (I64[R1])(R1) returns to c4S2, args: 8, res: 8, upd: 8;
+  c4S2:
+      _s4Nf::P64 = R1;
+      _c4SX::P64 = _s4Nf::P64 & 7;
+      switch [1 .. 2] _c4SX::P64 {
+          case 1 : goto c4SN;
+          case 2 : goto c4SP;
+      }
+  c4SP:
+      _s4Nh::P64 = P64[_s4Nf::P64 + 6];
+      _s4Ni::P64 = P64[_s4Nf::P64 + 14];
+      I64[(young<c4S8> + 8)] = c4S8;
+      R1 = _s4Nh::P64;
+      if (R1 & 7 != 0) goto c4S8; else goto c4S9;
+  c4S9:
+      call (I64[R1])(R1) returns to c4S8, args: 8, res: 8, upd: 8;
+  c4S8:
+      _s4Nj::P64 = R1;
+      _s4Nk::I64 = I64[_s4Nj::P64 + 7];
+      _s4Nl::I64 = _s4Nk::I64;
+      switch [-9223372036854775808 .. 9223372036854775807] _s4Nl::I64 {
+          case 0 : goto c4ST;
+          default: goto c4SS;
+      }
+  c4ST:
+      _c4Sh::I64 = performMajorGC;
+      I64[(young<c4Si> + 8)] = c4Si;
+      foreign call "ccall" arg hints:  []  result hints:  [] (_c4Sh::I64)(...) returns to c4Si args: ([]) ress: ([])ret_args: 8ret_off: 8;
+  c4Si:
+      Hp = Hp + 24;
+      if (Hp > HpLim) goto c4SW; else goto c4SV;
+  c4SW:
+      HpAlloc = 24;
+      call stg_gc_noregs() returns to c4Si, args: 8, res: 8, upd: 8;
+  c4SV:
+      I64[Hp - 16] = sat_info;
+      P64[Hp] = _s4Nj::P64;
+      _c4Sk::P64 = Hp - 16;
+      R1 = _c4Sk::P64;
+      call (P64[(old + 8)])(R1) args: 8, res: 0, upd: 8;
+  c4SS:
+      R2 = c4Sf_str;
+      call patError_info(R2) args: 8, res: 0, upd: 8;
+  c4SN:
+      R1 = badHead_closure;
+      call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Post common block elimination ====================
+2017-10-20 12:58:11.090691 UTC
+
+{offset
+  c4SG:
+      if ((old + 0) - <highSp> < SpLim) goto c4SH; else goto c4SI;
+  c4SH:
+      R1 = external1_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4SI:
+      I64[(young<c4RY> + 8)] = c4RY;
+      call stg_noDuplicate#() returns to c4RY, args: 8, res: 8, upd: 8;
+  c4RY:
+      I64[(young<c4S2> + 8)] = c4S2;
+      R1 = alfa_closure;
+      if (R1 & 7 != 0) goto c4S2; else goto c4S3;
+  c4S3:
+      call (I64[R1])(R1) returns to c4S2, args: 8, res: 8, upd: 8;
+  c4S2:
+      _s4Nf::P64 = R1;
+      _c4SX::P64 = _s4Nf::P64 & 7;
+      switch [1 .. 2] _c4SX::P64 {
+          case 1 : goto c4SN;
+          case 2 : goto c4SP;
+      }
+  c4SP:
+      _s4Nh::P64 = P64[_s4Nf::P64 + 6];
+      _s4Ni::P64 = P64[_s4Nf::P64 + 14];
+      I64[(young<c4S8> + 8)] = c4S8;
+      R1 = _s4Nh::P64;
+      if (R1 & 7 != 0) goto c4S8; else goto c4S9;
+  c4S9:
+      call (I64[R1])(R1) returns to c4S8, args: 8, res: 8, upd: 8;
+  c4S8:
+      _s4Nj::P64 = R1;
+      _s4Nk::I64 = I64[_s4Nj::P64 + 7];
+      _s4Nl::I64 = _s4Nk::I64;
+      switch [-9223372036854775808 .. 9223372036854775807] _s4Nl::I64 {
+          case 0 : goto c4ST;
+          default: goto c4SS;
+      }
+  c4ST:
+      _c4Sh::I64 = performMajorGC;
+      I64[(young<c4Si> + 8)] = c4Si;
+      foreign call "ccall" arg hints:  []  result hints:  [] (_c4Sh::I64)(...) returns to c4Si args: ([]) ress: ([])ret_args: 8ret_off: 8;
+  c4Si:
+      Hp = Hp + 24;
+      if (Hp > HpLim) goto c4SW; else goto c4SV;
+  c4SW:
+      HpAlloc = 24;
+      call stg_gc_noregs() returns to c4Si, args: 8, res: 8, upd: 8;
+  c4SV:
+      I64[Hp - 16] = sat_info;
+      P64[Hp] = _s4Nj::P64;
+      _c4Sk::P64 = Hp - 16;
+      R1 = _c4Sk::P64;
+      call (P64[(old + 8)])(R1) args: 8, res: 0, upd: 8;
+  c4SS:
+      R2 = c4Sf_str;
+      call patError_info(R2) args: 8, res: 0, upd: 8;
+  c4SN:
+      R1 = badHead_closure;
+      call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Post switch plan ====================
+2017-10-20 12:58:11.091585 UTC
+
+{offset
+  c4SG:
+      if ((old + 0) - <highSp> < SpLim) goto c4SH; else goto c4SI;
+  c4SH:
+      R1 = external1_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4SI:
+      I64[(young<c4RY> + 8)] = c4RY;
+      call stg_noDuplicate#() returns to c4RY, args: 8, res: 8, upd: 8;
+  c4RY:
+      I64[(young<c4S2> + 8)] = c4S2;
+      R1 = alfa_closure;
+      if (R1 & 7 != 0) goto c4S2; else goto c4S3;
+  c4S3:
+      call (I64[R1])(R1) returns to c4S2, args: 8, res: 8, upd: 8;
+  c4S2:
+      _s4Nf::P64 = R1;
+      _c4SX::P64 = _s4Nf::P64 & 7;
+      if (_c4SX::P64 != 1) goto c4SP; else goto c4SN;
+  c4SP:
+      _s4Nh::P64 = P64[_s4Nf::P64 + 6];
+      _s4Ni::P64 = P64[_s4Nf::P64 + 14];
+      I64[(young<c4S8> + 8)] = c4S8;
+      R1 = _s4Nh::P64;
+      if (R1 & 7 != 0) goto c4S8; else goto c4S9;
+  c4S9:
+      call (I64[R1])(R1) returns to c4S8, args: 8, res: 8, upd: 8;
+  c4S8:
+      _s4Nj::P64 = R1;
+      _s4Nk::I64 = I64[_s4Nj::P64 + 7];
+      _s4Nl::I64 = _s4Nk::I64;
+      if (_s4Nl::I64 != 0) goto c4SS; else goto c4ST;
+  c4SS:
+      R2 = c4Sf_str;
+      call patError_info(R2) args: 8, res: 0, upd: 8;
+  c4ST:
+      _c4Sh::I64 = performMajorGC;
+      I64[(young<c4Si> + 8)] = c4Si;
+      foreign call "ccall" arg hints:  []  result hints:  [] (_c4Sh::I64)(...) returns to c4Si args: ([]) ress: ([])ret_args: 8ret_off: 8;
+  c4Si:
+      Hp = Hp + 24;
+      if (Hp > HpLim) goto c4SW; else goto c4SV;
+  c4SW:
+      HpAlloc = 24;
+      call stg_gc_noregs() returns to c4Si, args: 8, res: 8, upd: 8;
+  c4SV:
+      I64[Hp - 16] = sat_info;
+      P64[Hp] = _s4Nj::P64;
+      _c4Sk::P64 = Hp - 16;
+      R1 = _c4Sk::P64;
+      call (P64[(old + 8)])(R1) args: 8, res: 0, upd: 8;
+  c4SN:
+      R1 = badHead_closure;
+      call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Layout Stack ====================
+2017-10-20 12:58:11.092465 UTC
+
+{offset
+  c4SG:
+      if ((Sp + 8) - 24 < SpLim) goto c4SH; else goto c4SI;
+  c4SH:
+      R1 = external1_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4SI:
+      I64[Sp - 8] = c4RY;
+      Sp = Sp - 8;
+      call stg_noDuplicate#() returns to c4RY, args: 8, res: 8, upd: 8;
+  c4RY:
+      I64[Sp] = c4S2;
+      R1 = alfa_closure;
+      if (R1 & 7 != 0) goto c4S2; else goto c4S3;
+  c4S3:
+      call (I64[R1])(R1) returns to c4S2, args: 8, res: 8, upd: 8;
+  c4S2:
+      _s4Nf::P64 = R1;
+      _c4SX::P64 = _s4Nf::P64 & 7;
+      if (_c4SX::P64 != 1) goto c4SP; else goto c4SN;
+  c4SP:
+      _s4Nh::P64 = P64[_s4Nf::P64 + 6];
+      _s4Ni::P64 = P64[_s4Nf::P64 + 14];
+      I64[Sp] = c4S8;
+      R1 = _s4Nh::P64;
+      if (R1 & 7 != 0) goto c4S8; else goto c4S9;
+  c4S9:
+      call (I64[R1])(R1) returns to c4S8, args: 8, res: 8, upd: 8;
+  c4S8:
+      _s4Nj::P64 = R1;
+      _s4Nk::I64 = I64[_s4Nj::P64 + 7];
+      _s4Nl::I64 = _s4Nk::I64;
+      if (_s4Nl::I64 != 0) goto c4SS; else goto c4ST;
+  c4SS:
+      R2 = c4Sf_str;
+      Sp = Sp + 8;
+      call patError_info(R2) args: 8, res: 0, upd: 8;
+  c4ST:
+      _c4Sh::I64 = performMajorGC;
+      I64[Sp - 8] = c4Si;
+      P64[Sp] = _s4Nj::P64;
+      Sp = Sp - 8;
+      _u4T1::P64 = CurrentTSO;
+      I64[I64[_u4T1::P64 + 24] + 16] = Sp;
+      _u4T2::I64 = CurrentNursery;
+      P64[_u4T2::I64 + 8] = Hp + 8;
+      I64[_u4T1::P64 + 104] = I64[_u4T1::P64 + 104] - %MO_UU_Conv_W64_W64((Hp + 8) - I64[_u4T2::I64]);
+      (_u4SY::I64) = call "ccall" arg hints:  [PtrHint,]  result hints:  [PtrHint] suspendThread(BaseReg, 0);
+      call "ccall" arg hints:  []  result hints:  [] (_c4Sh::I64)();
+      (_u4SZ::I64) = call "ccall" arg hints:  [PtrHint]  result hints:  [PtrHint] resumeThread(_u4SY::I64);
+      BaseReg = _u4SZ::I64;
+      _u4T1::P64 = CurrentTSO;
+      _u4T0::P64 = I64[_u4T1::P64 + 24];
+      Sp = I64[_u4T0::P64 + 16];
+      SpLim = _u4T0::P64 + 192;
+      HpAlloc = 0;
+      _u4T2::I64 = CurrentNursery;
+      _u4T3::I64 = I64[_u4T2::I64 + 8];
+      Hp = _u4T3::I64 - 8;
+      _u4T4::I64 = I64[_u4T2::I64];
+      HpLim = _u4T4::I64 + (%MO_SS_Conv_W32_W64(I32[_u4T2::I64 + 48]) * 4096 - 1);
+      I64[_u4T1::P64 + 104] = I64[_u4T1::P64 + 104] + %MO_UU_Conv_W64_W64(_u4T3::I64 - _u4T4::I64);
+      call (I64[Sp])() returns to c4Si, args: 8, res: 8, upd: 8;
+  c4Si:
+      _s4Nj::P64 = P64[Sp + 8];
+      Hp = Hp + 24;
+      if (Hp > HpLim) goto c4SW; else goto c4SV;
+  c4SW:
+      HpAlloc = 24;
+      call stg_gc_noregs() returns to c4Si, args: 8, res: 8, upd: 8;
+  c4SV:
+      I64[Hp - 16] = sat_info;
+      P64[Hp] = _s4Nj::P64;
+      _c4Sk::P64 = Hp - 16;
+      R1 = _c4Sk::P64;
+      Sp = Sp + 16;
+      call (P64[Sp])(R1) args: 8, res: 0, upd: 8;
+  c4SN:
+      R1 = badHead_closure;
+      Sp = Sp + 8;
+      call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+}
+
+
+==================== Sink assignments ====================
+2017-10-20 12:58:11.093535 UTC
+
+{offset
+  c4SG:
+      if ((Sp + -16) < SpLim) goto c4SH; else goto c4SI;
+  c4SH:
+      R1 = external1_closure;
+      call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+  c4SI:
+      I64[Sp - 8] = c4RY;
+      Sp = Sp - 8;
+      call stg_noDuplicate#() returns to c4RY, args: 8, res: 8, upd: 8;
+  c4RY:
+      I64[Sp] = c4S2;
+      R1 = alfa_closure;
+      if (R1 & 7 != 0) goto c4S2; else goto c4S3;
+  c4S3:
+      call (I64[R1])(R1) returns to c4S2, args: 8, res: 8, upd: 8;
+  c4S2:
+      if (R1 & 7 != 1) goto c4SP; else goto c4SN;
+  c4SP:
+      I64[Sp] = c4S8;
+      R1 = P64[R1 + 6];
+      if (R1 & 7 != 0) goto c4S8; else goto c4S9;
+  c4S9:
+      call (I64[R1])(R1) returns to c4S8, args: 8, res: 8, upd: 8;
+  c4S8:
+      if (I64[R1 + 7] != 0) goto c4SS; else goto c4ST;
+  c4SS:
+      R2 = c4Sf_str;
+      Sp = Sp + 8;
+      call patError_info(R2) args: 8, res: 0, upd: 8;
+  c4ST:
+      I64[Sp - 8] = c4Si;
+      P64[Sp] = R1;
+      Sp = Sp - 8;
+      _u4T1::P64 = CurrentTSO;
+      I64[I64[_u4T1::P64 + 24] + 16] = Sp;
+      _u4T2::I64 = CurrentNursery;
+      P64[_u4T2::I64 + 8] = Hp + 8;
+      I64[_u4T1::P64 + 104] = I64[_u4T1::P64 + 104] - ((Hp + 8) - I64[_u4T2::I64]);
+      (_u4SY::I64) = call "ccall" arg hints:  [PtrHint,]  result hints:  [PtrHint] suspendThread(BaseReg, 0);
+      call "ccall" arg hints:  []  result hints:  [] performMajorGC();
+      (_u4SZ::I64) = call "ccall" arg hints:  [PtrHint]  result hints:  [PtrHint] resumeThread(_u4SY::I64);
+      BaseReg = _u4SZ::I64;
+      _u4T1::P64 = CurrentTSO;
+      _u4T0::P64 = I64[_u4T1::P64 + 24];
+      Sp = I64[_u4T0::P64 + 16];
+      SpLim = _u4T0::P64 + 192;
+      HpAlloc = 0;
+      _u4T2::I64 = CurrentNursery;
+      _u4T3::I64 = I64[_u4T2::I64 + 8];
+      Hp = _u4T3::I64 - 8;
+      _u4T4::I64 = I64[_u4T2::I64];
+      HpLim = _u4T4::I64 + ((%MO_SS_Conv_W32_W64(I32[_u4T2::I64 + 48]) << 12) - 1);
+      I64[_u4T1::P64 + 104] = I64[_u4T1::P64 + 104] + (_u4T3::I64 - _u4T4::I64);
+      call (I64[Sp])() returns to c4Si, args: 8, res: 8, upd: 8;
+  c4Si:
+      Hp = Hp + 24;
+      if (Hp > HpLim) goto c4SW; else goto c4SV;
+  c4SW:
+      HpAlloc = 24;
+      call stg_gc_noregs() returns to c4Si, args: 8, res: 8, upd: 8;
+  c4SV:
+      I64[Hp - 16] = sat_info;
+      P64[Hp] = P64[Sp + 8];
+      R1 = Hp - 16;
+      Sp = Sp + 16;
+      call (P64[Sp])(R1) args: 8, res: 0, upd: 8;
+  c4SN:
+      R1 = badHead_closure;
+      Sp = Sp + 8;
+      call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+}
+
+
+==================== CAFEnv ====================
+2017-10-20 12:58:11.095161 UTC
+
+[(c4RY,
+  {patError_closure, alfa_closure, badHead_closure, sat_closure}),
+ (c4S2, {patError_closure, badHead_closure, sat_closure}),
+ (c4S3, {patError_closure, badHead_closure, sat_closure}),
+ (c4S8, {patError_closure, sat_closure}),
+ (c4S9, {patError_closure, sat_closure}), (c4Si, {sat_closure}),
+ (c4SG,
+  {patError_closure, alfa_closure, badHead_closure,
+   external1_closure, sat_closure}),
+ (c4SH, {external1_closure}),
+ (c4SI,
+  {patError_closure, alfa_closure, badHead_closure, sat_closure}),
+ (c4SN, {badHead_closure}), (c4SP, {patError_closure, sat_closure}),
+ (c4SS, {patError_closure}), (c4ST, {sat_closure}),
+ (c4SV, {sat_closure}), (c4SW, {sat_closure})]
+
+
+==================== after setInfoTableStackMap ====================
+2017-10-20 12:58:11.095546 UTC
+
+external1_entry() //  []
+        { info_tbl: [(c4RY,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4S2,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4S8,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4Si,
+                      label: block_info
+                      rep:StackRep [False]),
+                     (c4SG,
+                      label: external1_info
+                      rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4SG:
+          if ((Sp + -16) < SpLim) goto c4SH; else goto c4SI;
+      c4SH:
+          R1 = external1_closure;
+          call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+      c4SI:
+          I64[Sp - 8] = c4RY;
+          Sp = Sp - 8;
+          call stg_noDuplicate#() returns to c4RY, args: 8, res: 8, upd: 8;
+      c4RY:
+          I64[Sp] = c4S2;
+          R1 = alfa_closure;
+          if (R1 & 7 != 0) goto c4S2; else goto c4S3;
+      c4S3:
+          call (I64[R1])(R1) returns to c4S2, args: 8, res: 8, upd: 8;
+      c4S2:
+          if (R1 & 7 != 1) goto c4SP; else goto c4SN;
+      c4SP:
+          I64[Sp] = c4S8;
+          R1 = P64[R1 + 6];
+          if (R1 & 7 != 0) goto c4S8; else goto c4S9;
+      c4S9:
+          call (I64[R1])(R1) returns to c4S8, args: 8, res: 8, upd: 8;
+      c4S8:
+          if (I64[R1 + 7] != 0) goto c4SS; else goto c4ST;
+      c4SS:
+          R2 = c4Sf_str;
+          Sp = Sp + 8;
+          call patError_info(R2) args: 8, res: 0, upd: 8;
+      c4ST:
+          I64[Sp - 8] = c4Si;
+          P64[Sp] = R1;
+          Sp = Sp - 8;
+          _u4T1::P64 = CurrentTSO;
+          I64[I64[_u4T1::P64 + 24] + 16] = Sp;
+          _u4T2::I64 = CurrentNursery;
+          P64[_u4T2::I64 + 8] = Hp + 8;
+          I64[_u4T1::P64 + 104] = I64[_u4T1::P64 + 104] - ((Hp + 8) - I64[_u4T2::I64]);
+          (_u4SY::I64) = call "ccall" arg hints:  [PtrHint,]  result hints:  [PtrHint] suspendThread(BaseReg, 0);
+          call "ccall" arg hints:  []  result hints:  [] performMajorGC();
+          (_u4SZ::I64) = call "ccall" arg hints:  [PtrHint]  result hints:  [PtrHint] resumeThread(_u4SY::I64);
+          BaseReg = _u4SZ::I64;
+          _u4T1::P64 = CurrentTSO;
+          _u4T0::P64 = I64[_u4T1::P64 + 24];
+          Sp = I64[_u4T0::P64 + 16];
+          SpLim = _u4T0::P64 + 192;
+          HpAlloc = 0;
+          _u4T2::I64 = CurrentNursery;
+          _u4T3::I64 = I64[_u4T2::I64 + 8];
+          Hp = _u4T3::I64 - 8;
+          _u4T4::I64 = I64[_u4T2::I64];
+          HpLim = _u4T4::I64 + ((%MO_SS_Conv_W32_W64(I32[_u4T2::I64 + 48]) << 12) - 1);
+          I64[_u4T1::P64 + 104] = I64[_u4T1::P64 + 104] + (_u4T3::I64 - _u4T4::I64);
+          call (I64[Sp])() returns to c4Si, args: 8, res: 8, upd: 8;
+      c4Si:
+          Hp = Hp + 24;
+          if (Hp > HpLim) goto c4SW; else goto c4SV;
+      c4SW:
+          HpAlloc = 24;
+          call stg_gc_noregs() returns to c4Si, args: 8, res: 8, upd: 8;
+      c4SV:
+          I64[Hp - 16] = sat_info;
+          P64[Hp] = P64[Sp + 8];
+          R1 = Hp - 16;
+          Sp = Sp + 16;
+          call (P64[Sp])(R1) args: 8, res: 0, upd: 8;
+      c4SN:
+          R1 = badHead_closure;
+          Sp = Sp + 8;
+          call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+    }
+}
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.097045 UTC
+
+external1_entry() //  []
+        { info_tbl: [(c4RY,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4S2,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4S8,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4Si,
+                      label: block_info
+                      rep:StackRep [False]),
+                     (c4SG,
+                      label: external1_info
+                      rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4SG:
+          if ((Sp + -16) < SpLim) goto c4SH; else goto c4SI;
+      c4SH:
+          R1 = external1_closure;
+          call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+      c4SI:
+          I64[Sp - 8] = c4RY;
+          Sp = Sp - 8;
+          call stg_noDuplicate#() returns to c4RY, args: 8, res: 8, upd: 8;
+      c4RY:
+          I64[Sp] = c4S2;
+          R1 = alfa_closure;
+          if (R1 & 7 != 0) goto c4S2; else goto c4S3;
+      c4S3:
+          call (I64[R1])(R1) returns to c4S2, args: 8, res: 8, upd: 8;
+      c4S2:
+          if (R1 & 7 != 1) goto c4SP; else goto c4SN;
+      c4SP:
+          I64[Sp] = c4S8;
+          R1 = P64[R1 + 6];
+          if (R1 & 7 != 0) goto c4S8; else goto c4S9;
+      c4S9:
+          call (I64[R1])(R1) returns to c4S8, args: 8, res: 8, upd: 8;
+      c4S8:
+          if (I64[R1 + 7] != 0) goto c4SS; else goto c4ST;
+      c4SS:
+          R2 = c4Sf_str;
+          Sp = Sp + 8;
+          call patError_info(R2) args: 8, res: 0, upd: 8;
+      c4ST:
+          I64[Sp - 8] = c4Si;
+          P64[Sp] = R1;
+          Sp = Sp - 8;
+          _u4T1::P64 = CurrentTSO;
+          I64[I64[_u4T1::P64 + 24] + 16] = Sp;
+          _u4T2::I64 = CurrentNursery;
+          P64[_u4T2::I64 + 8] = Hp + 8;
+          I64[_u4T1::P64 + 104] = I64[_u4T1::P64 + 104] - ((Hp + 8) - I64[_u4T2::I64]);
+          (_u4SY::I64) = call "ccall" arg hints:  [PtrHint,]  result hints:  [PtrHint] suspendThread(BaseReg, 0);
+          call "ccall" arg hints:  []  result hints:  [] performMajorGC();
+          (_u4SZ::I64) = call "ccall" arg hints:  [PtrHint]  result hints:  [PtrHint] resumeThread(_u4SY::I64);
+          BaseReg = _u4SZ::I64;
+          _u4T1::P64 = CurrentTSO;
+          _u4T0::P64 = I64[_u4T1::P64 + 24];
+          Sp = I64[_u4T0::P64 + 16];
+          SpLim = _u4T0::P64 + 192;
+          HpAlloc = 0;
+          _u4T2::I64 = CurrentNursery;
+          _u4T3::I64 = I64[_u4T2::I64 + 8];
+          Hp = _u4T3::I64 - 8;
+          _u4T4::I64 = I64[_u4T2::I64];
+          HpLim = _u4T4::I64 + ((%MO_SS_Conv_W32_W64(I32[_u4T2::I64 + 48]) << 12) - 1);
+          I64[_u4T1::P64 + 104] = I64[_u4T1::P64 + 104] + (_u4T3::I64 - _u4T4::I64);
+          call (I64[Sp])() returns to c4Si, args: 8, res: 8, upd: 8;
+      c4Si:
+          Hp = Hp + 24;
+          if (Hp > HpLim) goto c4SW; else goto c4SV;
+      c4SW:
+          HpAlloc = 24;
+          call stg_gc_noregs() returns to c4Si, args: 8, res: 8, upd: 8;
+      c4SV:
+          I64[Hp - 16] = sat_info;
+          P64[Hp] = P64[Sp + 8];
+          R1 = Hp - 16;
+          Sp = Sp + 16;
+          call (P64[Sp])(R1) args: 8, res: 0, upd: 8;
+      c4SN:
+          R1 = badHead_closure;
+          Sp = Sp + 8;
+          call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+    }
+}
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.098322 UTC
+
+[section ""data" . external1_closure" {
+     external1_closure:
+         const external1_info;
+         const 0;
+ },
+ section ""readonly" . c4Sf_str" {
+     c4Sf_str:
+         I8[] [115,114,99,47,77,97,105,110,46,104,115,58,50,55,58,52,48,45,54,51,124,99,97,115,101]
+ },
+ sat_entry() //  [R1]
+         { info_tbl: [(c4St,
+                       label: sat_info
+                       rep:HeapRep 1 ptrs { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4St:
+           if ((Sp + -16) < SpLim) goto c4Su; else goto c4SF;
+       c4Su:
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4SF:
+           I64[Sp - 16] = stg_upd_frame_info;
+           P64[Sp - 8] = R1;
+           _s4Nj::P64 = P64[R1 + 16];
+           if (_s4Nj::P64 != _s4Nj::P64) goto c4Sr; else goto c4Ss;
+       c4Sr:
+           R1 = False_closure+1;
+           Sp = Sp - 16;
+           call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+       c4Ss:
+           R1 = True_closure+2;
+           Sp = Sp - 16;
+           call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+     }
+ },
+ external1_entry() //  []
+         { info_tbl: [(c4RY,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4S2,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4S8,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4Si,
+                       label: block_info
+                       rep:StackRep [False]),
+                      (c4SG,
+                       label: external1_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4SG:
+           if ((Sp + -16) < SpLim) goto c4SH; else goto c4SI;
+       c4SH:
+           R1 = external1_closure;
+           call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+       c4SI:
+           I64[Sp - 8] = c4RY;
+           Sp = Sp - 8;
+           call stg_noDuplicate#() returns to c4RY, args: 8, res: 8, upd: 8;
+       c4RY:
+           I64[Sp] = c4S2;
+           R1 = alfa_closure;
+           if (R1 & 7 != 0) goto c4S2; else goto c4S3;
+       c4S3:
+           call (I64[R1])(R1) returns to c4S2, args: 8, res: 8, upd: 8;
+       c4S2:
+           if (R1 & 7 != 1) goto c4SP; else goto c4SN;
+       c4SP:
+           I64[Sp] = c4S8;
+           R1 = P64[R1 + 6];
+           if (R1 & 7 != 0) goto c4S8; else goto c4S9;
+       c4S9:
+           call (I64[R1])(R1) returns to c4S8, args: 8, res: 8, upd: 8;
+       c4S8:
+           if (I64[R1 + 7] != 0) goto c4SS; else goto c4ST;
+       c4SS:
+           R2 = c4Sf_str;
+           Sp = Sp + 8;
+           call patError_info(R2) args: 8, res: 0, upd: 8;
+       c4ST:
+           I64[Sp - 8] = c4Si;
+           P64[Sp] = R1;
+           Sp = Sp - 8;
+           _u4T1::P64 = CurrentTSO;
+           I64[I64[_u4T1::P64 + 24] + 16] = Sp;
+           _u4T2::I64 = CurrentNursery;
+           P64[_u4T2::I64 + 8] = Hp + 8;
+           I64[_u4T1::P64 + 104] = I64[_u4T1::P64 + 104] - ((Hp + 8) - I64[_u4T2::I64]);
+           (_u4SY::I64) = call "ccall" arg hints:  [PtrHint,]  result hints:  [PtrHint] suspendThread(BaseReg, 0);
+           call "ccall" arg hints:  []  result hints:  [] performMajorGC();
+           (_u4SZ::I64) = call "ccall" arg hints:  [PtrHint]  result hints:  [PtrHint] resumeThread(_u4SY::I64);
+           BaseReg = _u4SZ::I64;
+           _u4T1::P64 = CurrentTSO;
+           _u4T0::P64 = I64[_u4T1::P64 + 24];
+           Sp = I64[_u4T0::P64 + 16];
+           SpLim = _u4T0::P64 + 192;
+           HpAlloc = 0;
+           _u4T2::I64 = CurrentNursery;
+           _u4T3::I64 = I64[_u4T2::I64 + 8];
+           Hp = _u4T3::I64 - 8;
+           _u4T4::I64 = I64[_u4T2::I64];
+           HpLim = _u4T4::I64 + ((%MO_SS_Conv_W32_W64(I32[_u4T2::I64 + 48]) << 12) - 1);
+           I64[_u4T1::P64 + 104] = I64[_u4T1::P64 + 104] + (_u4T3::I64 - _u4T4::I64);
+           call (I64[Sp])() returns to c4Si, args: 8, res: 8, upd: 8;
+       c4Si:
+           Hp = Hp + 24;
+           if (Hp > HpLim) goto c4SW; else goto c4SV;
+       c4SW:
+           HpAlloc = 24;
+           call stg_gc_noregs() returns to c4Si, args: 8, res: 8, upd: 8;
+       c4SV:
+           I64[Hp - 16] = sat_info;
+           P64[Hp] = P64[Sp + 8];
+           R1 = Hp - 16;
+           Sp = Sp + 16;
+           call (P64[Sp])(R1) args: 8, res: 0, upd: 8;
+       c4SN:
+           R1 = badHead_closure;
+           Sp = Sp + 8;
+           call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.100103 UTC
+
+[section ""data" . external1_closure" {
+     external1_closure:
+         const external1_info;
+         const 0;
+ },
+ section ""readonly" . c4Sf_str" {
+     c4Sf_str:
+         I8[] [115,114,99,47,77,97,105,110,46,104,115,58,50,55,58,52,48,45,54,51,124,99,97,115,101]
+ },
+ sat_entry() //  [R1]
+         { info_tbl: [(c4St,
+                       label: sat_info
+                       rep:HeapRep 1 ptrs { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4St:
+           if ((Sp + -16) < SpLim) goto c4Su; else goto c4SF;
+       c4Su:
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4SF:
+           I64[Sp - 16] = stg_upd_frame_info;
+           P64[Sp - 8] = R1;
+           _s4Nj::P64 = P64[R1 + 16];
+           if (_s4Nj::P64 != _s4Nj::P64) goto c4Sr; else goto c4Ss;
+       c4Sr:
+           R1 = False_closure+1;
+           Sp = Sp - 16;
+           call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+       c4Ss:
+           R1 = True_closure+2;
+           Sp = Sp - 16;
+           call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+     }
+ },
+ external1_entry() //  []
+         { info_tbl: [(c4RY,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4S2,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4S8,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4Si,
+                       label: block_info
+                       rep:StackRep [False]),
+                      (c4SG,
+                       label: external1_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4SG:
+           if ((Sp + -16) < SpLim) goto c4SH; else goto c4SI;
+       c4SH:
+           R1 = external1_closure;
+           call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+       c4SI:
+           I64[Sp - 8] = c4RY;
+           Sp = Sp - 8;
+           call stg_noDuplicate#() returns to c4RY, args: 8, res: 8, upd: 8;
+       c4RY:
+           I64[Sp] = c4S2;
+           R1 = alfa_closure;
+           if (R1 & 7 != 0) goto c4S2; else goto c4S3;
+       c4S3:
+           call (I64[R1])(R1) returns to c4S2, args: 8, res: 8, upd: 8;
+       c4S2:
+           if (R1 & 7 != 1) goto c4SP; else goto c4SN;
+       c4SP:
+           I64[Sp] = c4S8;
+           R1 = P64[R1 + 6];
+           if (R1 & 7 != 0) goto c4S8; else goto c4S9;
+       c4S9:
+           call (I64[R1])(R1) returns to c4S8, args: 8, res: 8, upd: 8;
+       c4S8:
+           if (I64[R1 + 7] != 0) goto c4SS; else goto c4ST;
+       c4SS:
+           R2 = c4Sf_str;
+           Sp = Sp + 8;
+           call patError_info(R2) args: 8, res: 0, upd: 8;
+       c4ST:
+           I64[Sp - 8] = c4Si;
+           P64[Sp] = R1;
+           Sp = Sp - 8;
+           _u4T1::P64 = CurrentTSO;
+           I64[I64[_u4T1::P64 + 24] + 16] = Sp;
+           _u4T2::I64 = CurrentNursery;
+           P64[_u4T2::I64 + 8] = Hp + 8;
+           I64[_u4T1::P64 + 104] = I64[_u4T1::P64 + 104] - ((Hp + 8) - I64[_u4T2::I64]);
+           (_u4SY::I64) = call "ccall" arg hints:  [PtrHint,]  result hints:  [PtrHint] suspendThread(BaseReg, 0);
+           call "ccall" arg hints:  []  result hints:  [] performMajorGC();
+           (_u4SZ::I64) = call "ccall" arg hints:  [PtrHint]  result hints:  [PtrHint] resumeThread(_u4SY::I64);
+           BaseReg = _u4SZ::I64;
+           _u4T1::P64 = CurrentTSO;
+           _u4T0::P64 = I64[_u4T1::P64 + 24];
+           Sp = I64[_u4T0::P64 + 16];
+           SpLim = _u4T0::P64 + 192;
+           HpAlloc = 0;
+           _u4T2::I64 = CurrentNursery;
+           _u4T3::I64 = I64[_u4T2::I64 + 8];
+           Hp = _u4T3::I64 - 8;
+           _u4T4::I64 = I64[_u4T2::I64];
+           HpLim = _u4T4::I64 + ((%MO_SS_Conv_W32_W64(I32[_u4T2::I64 + 48]) << 12) - 1);
+           I64[_u4T1::P64 + 104] = I64[_u4T1::P64 + 104] + (_u4T3::I64 - _u4T4::I64);
+           call (I64[Sp])() returns to c4Si, args: 8, res: 8, upd: 8;
+       c4Si:
+           Hp = Hp + 24;
+           if (Hp > HpLim) goto c4SW; else goto c4SV;
+       c4SW:
+           HpAlloc = 24;
+           call stg_gc_noregs() returns to c4Si, args: 8, res: 8, upd: 8;
+       c4SV:
+           I64[Hp - 16] = sat_info;
+           P64[Hp] = P64[Sp + 8];
+           R1 = Hp - 16;
+           Sp = Sp + 16;
+           call (P64[Sp])(R1) args: 8, res: 0, upd: 8;
+       c4SN:
+           R1 = badHead_closure;
+           Sp = Sp + 8;
+           call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Cmm produced by new codegen ====================
+2017-10-20 12:58:11.103601 UTC
+
+[section ""data" . external_closure" {
+     external_closure:
+         const external_info;
+         const 0;
+         const 0;
+         const 0;
+ },
+ external_entry() //  [R1]
+         { info_tbl: [(c4TJ,
+                       label: external_info
+                       rep:HeapRep static { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4TJ:
+           _rHh::P64 = R1;
+           goto c4TC;
+       c4TC:
+           if ((old + 0) - <highSp> < SpLim) goto c4TK; else goto c4TL;
+       c4TK:
+           R1 = _rHh::P64;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4TL:
+           (_c4TE::I64) = call "ccall" arg hints:  [PtrHint,
+                                                    PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _rHh::P64);
+           if (_c4TE::I64 == 0) goto c4TG; else goto c4TF;
+       c4TG:
+           call (I64[_rHh::P64])() args: 8, res: 0, upd: 8;
+       c4TF:
+           I64[(old + 24)] = stg_bh_upd_frame_info;
+           I64[(old + 16)] = _c4TE::I64;
+           I64[(young<c4TH> + 8)] = c4TH;
+           call external1_info() returns to c4TH, args: 8, res: 8, upd: 24;
+       c4TH:
+           _s4Nu::P64 = R1;
+           R1 = _s4Nu::P64 & (-8);
+           call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+     }
+ }]
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.104455 UTC
+
+{offset
+  c4TJ:
+      _rHh::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4TK; else goto c4TL;
+  c4TK:
+      R1 = _rHh::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4TL:
+      (_c4TE::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _rHh::P64);
+      if (_c4TE::I64 == 0) goto c4TG; else goto c4TF;
+  c4TG:
+      call (I64[_rHh::P64])() args: 8, res: 0, upd: 8;
+  c4TF:
+      I64[(old + 24)] = stg_bh_upd_frame_info;
+      I64[(old + 16)] = _c4TE::I64;
+      I64[(young<c4TH> + 8)] = c4TH;
+      call external1_info() returns to c4TH, args: 8, res: 8, upd: 24;
+  c4TH:
+      _s4Nu::P64 = R1;
+      R1 = _s4Nu::P64 & (-8);
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Post common block elimination ====================
+2017-10-20 12:58:11.105128 UTC
+
+{offset
+  c4TJ:
+      _rHh::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4TK; else goto c4TL;
+  c4TK:
+      R1 = _rHh::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4TL:
+      (_c4TE::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _rHh::P64);
+      if (_c4TE::I64 == 0) goto c4TG; else goto c4TF;
+  c4TG:
+      call (I64[_rHh::P64])() args: 8, res: 0, upd: 8;
+  c4TF:
+      I64[(old + 24)] = stg_bh_upd_frame_info;
+      I64[(old + 16)] = _c4TE::I64;
+      I64[(young<c4TH> + 8)] = c4TH;
+      call external1_info() returns to c4TH, args: 8, res: 8, upd: 24;
+  c4TH:
+      _s4Nu::P64 = R1;
+      R1 = _s4Nu::P64 & (-8);
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Post switch plan ====================
+2017-10-20 12:58:11.105719 UTC
+
+{offset
+  c4TJ:
+      _rHh::P64 = R1;
+      if ((old + 0) - <highSp> < SpLim) goto c4TK; else goto c4TL;
+  c4TK:
+      R1 = _rHh::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4TL:
+      (_c4TE::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _rHh::P64);
+      if (_c4TE::I64 == 0) goto c4TG; else goto c4TF;
+  c4TG:
+      call (I64[_rHh::P64])() args: 8, res: 0, upd: 8;
+  c4TF:
+      I64[(old + 24)] = stg_bh_upd_frame_info;
+      I64[(old + 16)] = _c4TE::I64;
+      I64[(young<c4TH> + 8)] = c4TH;
+      call external1_info() returns to c4TH, args: 8, res: 8, upd: 24;
+  c4TH:
+      _s4Nu::P64 = R1;
+      R1 = _s4Nu::P64 & (-8);
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Layout Stack ====================
+2017-10-20 12:58:11.106386 UTC
+
+{offset
+  c4TJ:
+      _rHh::P64 = R1;
+      if ((Sp + 8) - 32 < SpLim) goto c4TK; else goto c4TL;
+  c4TK:
+      R1 = _rHh::P64;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4TL:
+      (_c4TE::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, _rHh::P64);
+      if (_c4TE::I64 == 0) goto c4TG; else goto c4TF;
+  c4TG:
+      call (I64[_rHh::P64])() args: 8, res: 0, upd: 8;
+  c4TF:
+      I64[Sp - 16] = stg_bh_upd_frame_info;
+      I64[Sp - 8] = _c4TE::I64;
+      I64[Sp - 24] = c4TH;
+      Sp = Sp - 24;
+      call external1_info() returns to c4TH, args: 8, res: 8, upd: 24;
+  c4TH:
+      _s4Nu::P64 = R1;
+      R1 = _s4Nu::P64 & (-8);
+      Sp = Sp + 8;
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== Sink assignments ====================
+2017-10-20 12:58:11.106822 UTC
+
+{offset
+  c4TJ:
+      if ((Sp + -24) < SpLim) goto c4TK; else goto c4TL;
+  c4TK:
+      R1 = R1;
+      call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+  c4TL:
+      (_c4TE::I64) = call "ccall" arg hints:  [PtrHint,
+                                               PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+      if (_c4TE::I64 == 0) goto c4TG; else goto c4TF;
+  c4TG:
+      call (I64[R1])() args: 8, res: 0, upd: 8;
+  c4TF:
+      I64[Sp - 16] = stg_bh_upd_frame_info;
+      I64[Sp - 8] = _c4TE::I64;
+      I64[Sp - 24] = c4TH;
+      Sp = Sp - 24;
+      call external1_info() returns to c4TH, args: 8, res: 8, upd: 24;
+  c4TH:
+      R1 = R1 & (-8);
+      Sp = Sp + 8;
+      call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+}
+
+
+==================== CAFEnv ====================
+2017-10-20 12:58:11.107276 UTC
+
+[(c4TF, {external1_closure}), (c4TG, {}), (c4TH, {}),
+ (c4TJ, {external1_closure}), (c4TK, {}),
+ (c4TL, {external1_closure})]
+
+
+==================== after setInfoTableStackMap ====================
+2017-10-20 12:58:11.107519 UTC
+
+external_entry() //  [R1]
+        { info_tbl: [(c4TH,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4TJ,
+                      label: external_info
+                      rep:HeapRep static { Thunk })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4TJ:
+          if ((Sp + -24) < SpLim) goto c4TK; else goto c4TL;
+      c4TK:
+          R1 = R1;
+          call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+      c4TL:
+          (_c4TE::I64) = call "ccall" arg hints:  [PtrHint,
+                                                   PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+          if (_c4TE::I64 == 0) goto c4TG; else goto c4TF;
+      c4TG:
+          call (I64[R1])() args: 8, res: 0, upd: 8;
+      c4TF:
+          I64[Sp - 16] = stg_bh_upd_frame_info;
+          I64[Sp - 8] = _c4TE::I64;
+          I64[Sp - 24] = c4TH;
+          Sp = Sp - 24;
+          call external1_info() returns to c4TH, args: 8, res: 8, upd: 24;
+      c4TH:
+          R1 = R1 & (-8);
+          Sp = Sp + 8;
+          call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+    }
+}
+
+
+==================== Post control-flow optimisations ====================
+2017-10-20 12:58:11.10819 UTC
+
+external_entry() //  [R1]
+        { info_tbl: [(c4TH,
+                      label: block_info
+                      rep:StackRep []),
+                     (c4TJ,
+                      label: external_info
+                      rep:HeapRep static { Thunk })]
+          stack_info: arg_space: 8 updfr_space: Just 8
+        }
+    {offset
+      c4TJ:
+          if ((Sp + -24) < SpLim) goto c4TK; else goto c4TL;
+      c4TK:
+          R1 = R1;
+          call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+      c4TL:
+          (_c4TE::I64) = call "ccall" arg hints:  [PtrHint,
+                                                   PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+          if (_c4TE::I64 == 0) goto c4TG; else goto c4TF;
+      c4TG:
+          call (I64[R1])() args: 8, res: 0, upd: 8;
+      c4TF:
+          I64[Sp - 16] = stg_bh_upd_frame_info;
+          I64[Sp - 8] = _c4TE::I64;
+          I64[Sp - 24] = c4TH;
+          Sp = Sp - 24;
+          call external1_info() returns to c4TH, args: 8, res: 8, upd: 24;
+      c4TH:
+          R1 = R1 & (-8);
+          Sp = Sp + 8;
+          call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+    }
+}
+
+
+==================== Post CPS Cmm ====================
+2017-10-20 12:58:11.108657 UTC
+
+[section ""data" . external_closure" {
+     external_closure:
+         const external_info;
+         const 0;
+         const 0;
+         const 0;
+ },
+ external_entry() //  [R1]
+         { info_tbl: [(c4TH,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4TJ,
+                       label: external_info
+                       rep:HeapRep static { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4TJ:
+           if ((Sp + -24) < SpLim) goto c4TK; else goto c4TL;
+       c4TK:
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4TL:
+           (_c4TE::I64) = call "ccall" arg hints:  [PtrHint,
+                                                    PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+           if (_c4TE::I64 == 0) goto c4TG; else goto c4TF;
+       c4TG:
+           call (I64[R1])() args: 8, res: 0, upd: 8;
+       c4TF:
+           I64[Sp - 16] = stg_bh_upd_frame_info;
+           I64[Sp - 8] = _c4TE::I64;
+           I64[Sp - 24] = c4TH;
+           Sp = Sp - 24;
+           call external1_info() returns to c4TH, args: 8, res: 8, upd: 24;
+       c4TH:
+           R1 = R1 & (-8);
+           Sp = Sp + 8;
+           call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.109377 UTC
+
+[section ""data" . external_closure" {
+     external_closure:
+         const external_info;
+         const 0;
+         const 0;
+         const 0;
+ },
+ external_entry() //  [R1]
+         { info_tbl: [(c4TH,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4TJ,
+                       label: external_info
+                       rep:HeapRep static { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4TJ:
+           if ((Sp + -24) < SpLim) goto c4TK; else goto c4TL;
+       c4TK:
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4TL:
+           (_c4TE::I64) = call "ccall" arg hints:  [PtrHint,
+                                                    PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+           if (_c4TE::I64 == 0) goto c4TG; else goto c4TF;
+       c4TG:
+           call (I64[R1])() args: 8, res: 0, upd: 8;
+       c4TF:
+           I64[Sp - 16] = stg_bh_upd_frame_info;
+           I64[Sp - 8] = _c4TE::I64;
+           I64[Sp - 24] = c4TH;
+           Sp = Sp - 24;
+           call external1_info() returns to c4TH, args: 8, res: 8, upd: 24;
+       c4TH:
+           R1 = R1 & (-8);
+           Sp = Sp + 8;
+           call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:58:11.110563 UTC
+
+[section ""relreadonly" . S4Qb_srt" {
+     S4Qb_srt:
+         const patError_closure;
+         const alfa_closure;
+         const badHead_closure;
+         const main3_closure;
+         const shows17_closure;
+         const shows18_closure;
+         const hPutStr2_closure;
+         const stdout_closure;
+         const main2_closure;
+         const main1_closure;
+         const runMainIO1_closure;
+         const main4_closure;
+         const external1_closure;
+ }]
+

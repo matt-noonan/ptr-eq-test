@@ -1,0 +1,804 @@
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.89052 UTC
+
+[section ""data" . __stginit_main:Main" { __stginit_main:Main:
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.890858 UTC
+
+[section ""cstring" . $trModule4_bytes" {
+     $trModule4_bytes:
+         I8[] [109,97,105,110]
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.891121 UTC
+
+[section ""data" . $trModule3_closure" {
+     $trModule3_closure:
+         const TrNameS_con_info;
+         const $trModule4_bytes;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.891363 UTC
+
+[section ""cstring" . $trModule2_bytes" {
+     $trModule2_bytes:
+         I8[] [77,97,105,110]
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.891575 UTC
+
+[section ""data" . $trModule1_closure" {
+     $trModule1_closure:
+         const TrNameS_con_info;
+         const $trModule2_bytes;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.891802 UTC
+
+[section ""data" . $trModule_closure" {
+     $trModule_closure:
+         const Module_con_info;
+         const $trModule3_closure+1;
+         const $trModule1_closure+1;
+         const 3;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.892072 UTC
+
+[section ""data" . $krep_closure" {
+     $krep_closure:
+         const KindRepTyConApp_con_info;
+         const $tcInt_closure;
+         const []_closure+1;
+         const 3;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.892298 UTC
+
+[section ""cstring" . $tcBox2_bytes" {
+     $tcBox2_bytes:
+         I8[] [66,111,120]
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.892493 UTC
+
+[section ""data" . $tcBox1_closure" {
+     $tcBox1_closure:
+         const TrNameS_con_info;
+         const $tcBox2_bytes;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.892706 UTC
+
+[section ""data" . $tcBox_closure" {
+     $tcBox_closure:
+         const TyCon_con_info;
+         const $trModule_closure+1;
+         const $tcBox1_closure+1;
+         const krep$*_closure;
+         const 3762919943489504256;
+         const 5463706964232835171;
+         const 0;
+         const 3;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.892954 UTC
+
+[section ""data" . $krep1_closure" {
+     $krep1_closure:
+         const KindRepTyConApp_con_info;
+         const $tcBox_closure+1;
+         const []_closure+1;
+         const 3;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.893172 UTC
+
+[section ""data" . $tc'Box1_closure" {
+     $tc'Box1_closure:
+         const KindRepFun_con_info;
+         const $krep_closure+1;
+         const $krep1_closure+1;
+         const 3;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.893384 UTC
+
+[section ""cstring" . $tc'Box3_bytes" {
+     $tc'Box3_bytes:
+         I8[] [39,66,111,120]
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.893575 UTC
+
+[section ""data" . $tc'Box2_closure" {
+     $tc'Box2_closure:
+         const TrNameS_con_info;
+         const $tc'Box3_bytes;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.893782 UTC
+
+[section ""data" . $tc'Box_closure" {
+     $tc'Box_closure:
+         const TyCon_con_info;
+         const $trModule_closure+1;
+         const $tc'Box2_closure+1;
+         const $tc'Box1_closure+4;
+         const 2750483572331382518;
+         const 11996112659716245982;
+         const 0;
+         const 3;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.894273 UTC
+
+[section ""data" . alfa_closure" {
+     alfa_closure:
+         const alfa_info;
+         const 0;
+         const 0;
+         const 0;
+ },
+ alfa_entry() //  [R1]
+         { info_tbl: [(c4S3,
+                       label: alfa_info
+                       rep:HeapRep static { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4S3: // global
+           if ((Sp + -16) < SpLim) (likely: False) goto c4S4; else goto c4S5;
+       c4S4: // global
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4S5: // global
+           (_c4S0::I64) = call "ccall" arg hints:  [PtrHint,
+                                                    PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+           if (_c4S0::I64 == 0) goto c4S2; else goto c4S1;
+       c4S2: // global
+           call (I64[R1])() args: 8, res: 0, upd: 8;
+       c4S1: // global
+           I64[Sp - 16] = stg_bh_upd_frame_info;
+           I64[Sp - 8] = _c4S0::I64;
+           R3 = 0;
+           R2 = 0;
+           Sp = Sp - 16;
+           call eftInt_info(R3, R2) args: 24, res: 0, upd: 24;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.896116 UTC
+
+[section ""cstring" . lvl_bytes" {
+     lvl_bytes:
+         I8[] [115,114,99,47,77,97,105,110,46,104,115,58,50,51,58,52,48,45,54,51,124,99,97,115,101]
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.896505 UTC
+
+[section ""relreadonly" . S4So_srt" {
+     S4So_srt:
+         const patError_closure;
+ },
+ section ""data" . main4_closure" {
+     main4_closure:
+         const main4_info;
+         const 0;
+         const 0;
+         const 0;
+ },
+ main4_entry() //  [R1]
+         { info_tbl: [(c4Sl,
+                       label: main4_info
+                       rep:HeapRep static { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Sl: // global
+           if ((Sp + -16) < SpLim) (likely: False) goto c4Sm; else goto c4Sn;
+       c4Sm: // global
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4Sn: // global
+           (_c4Si::I64) = call "ccall" arg hints:  [PtrHint,
+                                                    PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+           if (_c4Si::I64 == 0) goto c4Sk; else goto c4Sj;
+       c4Sk: // global
+           call (I64[R1])() args: 8, res: 0, upd: 8;
+       c4Sj: // global
+           I64[Sp - 16] = stg_bh_upd_frame_info;
+           I64[Sp - 8] = _c4Si::I64;
+           R2 = lvl_bytes;
+           Sp = Sp - 16;
+           call patError_info(R2) args: 24, res: 0, upd: 24;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.89749 UTC
+
+[section ""data" . external2_closure" {
+     external2_closure:
+         const I#_con_info;
+         const 0;
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.898905 UTC
+
+[section ""relreadonly" . S4TJ_srt" {
+     S4TJ_srt:
+         const alfa_closure;
+         const badHead_closure;
+         const main4_closure;
+         const main3_closure;
+ },
+ section ""data" . main3_closure" {
+     main3_closure:
+         const main3_info;
+         const 0;
+ },
+ sat_entry() //  [R1]
+         { info_tbl: [(c4T4,
+                       label: sat_info
+                       rep:HeapRep 1 ptrs { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4T4: // global
+           if ((Sp + -16) < SpLim) (likely: False) goto c4T5; else goto c4Tg;
+       c4T5: // global
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4Tg: // global
+           I64[Sp - 16] = stg_upd_frame_info;
+           P64[Sp - 8] = R1;
+           if (P64[R1 + 16] != (external2_closure+1)) goto c4T2; else goto c4T3;
+       c4T2: // global
+           R1 = False_closure+1;
+           Sp = Sp - 16;
+           call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+       c4T3: // global
+           R1 = True_closure+2;
+           Sp = Sp - 16;
+           call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+     }
+ },
+ main3_entry() //  []
+         { info_tbl: [(c4SC,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4SE,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4SK,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4ST,
+                       label: block_info
+                       rep:StackRep [False]),
+                      (c4Tl,
+                       label: main3_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Tl: // global
+           if ((Sp + -16) < SpLim) (likely: False) goto c4Tm; else goto c4Tn;
+       c4Tm: // global
+           R1 = main3_closure;
+           call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+       c4Tn: // global
+           I64[Sp - 8] = c4SC;
+           Sp = Sp - 8;
+           call stg_noDuplicate#() returns to c4SC, args: 8, res: 8, upd: 8;
+       c4SC: // global
+           I64[Sp] = c4SE;
+           R1 = alfa_closure;
+           if (R1 & 7 != 0) goto c4SE; else goto c4SF;
+       c4SF: // global
+           call (I64[R1])(R1) returns to c4SE, args: 8, res: 8, upd: 8;
+       c4SE: // global
+           if (R1 & 7 != 1) goto c4Tj; else goto c4Ti;
+       c4Tj: // global
+           I64[Sp] = c4SK;
+           R1 = P64[R1 + 6];
+           if (R1 & 7 != 0) goto c4SK; else goto c4SL;
+       c4SL: // global
+           call (I64[R1])(R1) returns to c4SK, args: 8, res: 8, upd: 8;
+       c4SK: // global
+           if (I64[R1 + 7] != 0) goto c4Tu; else goto c4Tv;
+       c4Tu: // global
+           R1 = main4_closure;
+           Sp = Sp + 8;
+           call (I64[R1])(R1) args: 8, res: 0, upd: 8;
+       c4Tv: // global
+           I64[Sp - 8] = c4ST;
+           P64[Sp] = R1;
+           Sp = Sp - 8;
+           _u4TB::P64 = CurrentTSO;
+           I64[I64[_u4TB::P64 + 24] + 16] = Sp;
+           _u4TC::I64 = CurrentNursery;
+           P64[_u4TC::I64 + 8] = Hp + 8;
+           I64[_u4TB::P64 + 104] = I64[_u4TB::P64 + 104] - ((Hp + 8) - I64[_u4TC::I64]);
+           (_u4Tz::I64) = call "ccall" arg hints:  [PtrHint,]  result hints:  [PtrHint] suspendThread(BaseReg, 0);
+           call "ccall" arg hints:  []  result hints:  [] performMajorGC();
+           (_u4TA::I64) = call "ccall" arg hints:  [PtrHint]  result hints:  [PtrHint] resumeThread(_u4Tz::I64);
+           BaseReg = _u4TA::I64;
+           _u4TD::P64 = CurrentTSO;
+           _u4TE::P64 = I64[_u4TD::P64 + 24];
+           Sp = I64[_u4TE::P64 + 16];
+           SpLim = _u4TE::P64 + 192;
+           HpAlloc = 0;
+           _u4TF::I64 = CurrentNursery;
+           _u4TG::I64 = I64[_u4TF::I64 + 8];
+           Hp = _u4TG::I64 - 8;
+           _u4TH::I64 = I64[_u4TF::I64];
+           HpLim = _u4TH::I64 + ((%MO_SS_Conv_W32_W64(I32[_u4TF::I64 + 48]) << 12) - 1);
+           I64[_u4TD::P64 + 104] = I64[_u4TD::P64 + 104] + (_u4TG::I64 - _u4TH::I64);
+           call (I64[Sp])() returns to c4ST, args: 8, res: 8, upd: 8;
+       c4ST: // global
+           Hp = Hp + 24;
+           if (Hp > HpLim) (likely: False) goto c4Ty; else goto c4Tx;
+       c4Ty: // global
+           HpAlloc = 24;
+           call stg_gc_noregs() returns to c4ST, args: 8, res: 8, upd: 8;
+       c4Tx: // global
+           I64[Hp - 16] = sat_info;
+           P64[Hp] = P64[Sp + 8];
+           R1 = Hp - 16;
+           Sp = Sp + 16;
+           call (P64[Sp])(R1) args: 8, res: 0, upd: 8;
+       c4Ti: // global
+           R1 = badHead_closure;
+           Sp = Sp + 8;
+           call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.902148 UTC
+
+[section ""relreadonly" . S4UF_srt" {
+     S4UF_srt:
+         const $fShowBool3_closure;
+         const $fShowBool1_closure;
+         const main3_closure;
+ },
+ section ""data" . main2_closure" {
+     main2_closure:
+         const main2_info;
+         const 0;
+         const 0;
+         const 0;
+ },
+ main2_entry() //  [R1]
+         { info_tbl: [(c4Um,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4Uo,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4Uv,
+                       label: main2_info
+                       rep:HeapRep static { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Uv: // global
+           if ((Sp + -24) < SpLim) (likely: False) goto c4Uw; else goto c4Ux;
+       c4Uw: // global
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4Ux: // global
+           (_c4Uj::I64) = call "ccall" arg hints:  [PtrHint,
+                                                    PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+           if (_c4Uj::I64 == 0) goto c4Ul; else goto c4Uk;
+       c4Ul: // global
+           call (I64[R1])() args: 8, res: 0, upd: 8;
+       c4Uk: // global
+           I64[Sp - 16] = stg_bh_upd_frame_info;
+           I64[Sp - 8] = _c4Uj::I64;
+           I64[Sp - 24] = c4Um;
+           Sp = Sp - 24;
+           call main3_info() returns to c4Um, args: 8, res: 8, upd: 24;
+       c4Um: // global
+           I64[Sp] = c4Uo;
+           R1 = R1;
+           if (R1 & 7 != 0) goto c4Uo; else goto c4Up;
+       c4Up: // global
+           call (I64[R1])(R1) returns to c4Uo, args: 8, res: 8, upd: 24;
+       c4Uo: // global
+           if (R1 & 7 != 1) goto c4Ut; else goto c4Us;
+       c4Ut: // global
+           R1 = $fShowBool1_closure;
+           Sp = Sp + 8;
+           call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+       c4Us: // global
+           R1 = $fShowBool3_closure;
+           Sp = Sp + 8;
+           call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.904015 UTC
+
+[section ""relreadonly" . S4UY_srt" {
+     S4UY_srt:
+         const hPutStr2_closure;
+         const stdout_closure;
+         const main2_closure;
+ },
+ section ""data" . main1_closure" {
+     main1_closure:
+         const main1_info;
+         const 0;
+ },
+ main1_entry() //  []
+         { info_tbl: [(c4UV,
+                       label: main1_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4UV: // global
+           R4 = True_closure+2;
+           R3 = main2_closure;
+           R2 = stdout_closure;
+           call hPutStr2_info(R4, R3, R2) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.904665 UTC
+
+[section ""relreadonly" . S4Va_srt" {
+     S4Va_srt:
+         const main1_closure;
+ },
+ section ""data" . main_closure" {
+     main_closure:
+         const main_info;
+         const 0;
+ },
+ main_entry() //  []
+         { info_tbl: [(c4V7,
+                       label: main_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4V7: // global
+           call main1_info() args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.905159 UTC
+
+[section ""relreadonly" . S4Vm_srt" {
+     S4Vm_srt:
+         const runMainIO1_closure;
+         const main1_closure;
+ },
+ section ""data" . main5_closure" {
+     main5_closure:
+         const main5_info;
+         const 0;
+ },
+ main5_entry() //  []
+         { info_tbl: [(c4Vj,
+                       label: main5_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Vj: // global
+           R2 = main1_closure+1;
+           call runMainIO1_info(R2) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.905685 UTC
+
+[section ""relreadonly" . S4Vy_srt" {
+     S4Vy_srt:
+         const main5_closure;
+ },
+ section ""data" . main_closure" {
+     main_closure:
+         const main_info;
+         const 0;
+ },
+ main_entry() //  []
+         { info_tbl: [(c4Vv,
+                       label: main_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Vv: // global
+           call main5_info() args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.906132 UTC
+
+[section ""cstring" . lvl1_bytes" {
+     lvl1_bytes:
+         I8[] [115,114,99,47,77,97,105,110,46,104,115,58,50,55,58,52,48,45,54,51,124,99,97,115,101]
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.90644 UTC
+
+[section ""relreadonly" . S4VO_srt" {
+     S4VO_srt:
+         const patError_closure;
+ },
+ section ""data" . external3_closure" {
+     external3_closure:
+         const external3_info;
+         const 0;
+         const 0;
+         const 0;
+ },
+ external3_entry() //  [R1]
+         { info_tbl: [(c4VL,
+                       label: external3_info
+                       rep:HeapRep static { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4VL: // global
+           if ((Sp + -16) < SpLim) (likely: False) goto c4VM; else goto c4VN;
+       c4VM: // global
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4VN: // global
+           (_c4VI::I64) = call "ccall" arg hints:  [PtrHint,
+                                                    PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+           if (_c4VI::I64 == 0) goto c4VK; else goto c4VJ;
+       c4VK: // global
+           call (I64[R1])() args: 8, res: 0, upd: 8;
+       c4VJ: // global
+           I64[Sp - 16] = stg_bh_upd_frame_info;
+           I64[Sp - 8] = _c4VI::I64;
+           R2 = lvl1_bytes;
+           Sp = Sp - 16;
+           call patError_info(R2) args: 24, res: 0, upd: 24;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.907739 UTC
+
+[section ""relreadonly" . S4X7_srt" {
+     S4X7_srt:
+         const alfa_closure;
+         const badHead_closure;
+         const external3_closure;
+         const external1_closure;
+ },
+ section ""data" . external1_closure" {
+     external1_closure:
+         const external1_info;
+         const 0;
+ },
+ sat_entry() //  [R1]
+         { info_tbl: [(c4Ws,
+                       label: sat_info
+                       rep:HeapRep 1 ptrs { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4Ws: // global
+           if ((Sp + -16) < SpLim) (likely: False) goto c4Wt; else goto c4WE;
+       c4Wt: // global
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4WE: // global
+           I64[Sp - 16] = stg_upd_frame_info;
+           P64[Sp - 8] = R1;
+           if (P64[R1 + 16] != (external2_closure+1)) goto c4Wq; else goto c4Wr;
+       c4Wq: // global
+           R1 = False_closure+1;
+           Sp = Sp - 16;
+           call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+       c4Wr: // global
+           R1 = True_closure+2;
+           Sp = Sp - 16;
+           call (P64[Sp])(R1) args: 24, res: 0, upd: 24;
+     }
+ },
+ external1_entry() //  []
+         { info_tbl: [(c4W0,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4W2,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4W8,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4Wh,
+                       label: block_info
+                       rep:StackRep [False]),
+                      (c4WJ,
+                       label: external1_info
+                       rep:HeapRep static { Fun {arity: 1 fun_type: ArgSpec 3} })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4WJ: // global
+           if ((Sp + -16) < SpLim) (likely: False) goto c4WK; else goto c4WL;
+       c4WK: // global
+           R1 = external1_closure;
+           call (stg_gc_fun)(R1) args: 8, res: 0, upd: 8;
+       c4WL: // global
+           I64[Sp - 8] = c4W0;
+           Sp = Sp - 8;
+           call stg_noDuplicate#() returns to c4W0, args: 8, res: 8, upd: 8;
+       c4W0: // global
+           I64[Sp] = c4W2;
+           R1 = alfa_closure;
+           if (R1 & 7 != 0) goto c4W2; else goto c4W3;
+       c4W3: // global
+           call (I64[R1])(R1) returns to c4W2, args: 8, res: 8, upd: 8;
+       c4W2: // global
+           if (R1 & 7 != 1) goto c4WH; else goto c4WG;
+       c4WH: // global
+           I64[Sp] = c4W8;
+           R1 = P64[R1 + 6];
+           if (R1 & 7 != 0) goto c4W8; else goto c4W9;
+       c4W9: // global
+           call (I64[R1])(R1) returns to c4W8, args: 8, res: 8, upd: 8;
+       c4W8: // global
+           if (I64[R1 + 7] != 0) goto c4WS; else goto c4WT;
+       c4WS: // global
+           R1 = external3_closure;
+           Sp = Sp + 8;
+           call (I64[R1])(R1) args: 8, res: 0, upd: 8;
+       c4WT: // global
+           I64[Sp - 8] = c4Wh;
+           P64[Sp] = R1;
+           Sp = Sp - 8;
+           _u4WZ::P64 = CurrentTSO;
+           I64[I64[_u4WZ::P64 + 24] + 16] = Sp;
+           _u4X0::I64 = CurrentNursery;
+           P64[_u4X0::I64 + 8] = Hp + 8;
+           I64[_u4WZ::P64 + 104] = I64[_u4WZ::P64 + 104] - ((Hp + 8) - I64[_u4X0::I64]);
+           (_u4WX::I64) = call "ccall" arg hints:  [PtrHint,]  result hints:  [PtrHint] suspendThread(BaseReg, 0);
+           call "ccall" arg hints:  []  result hints:  [] performMajorGC();
+           (_u4WY::I64) = call "ccall" arg hints:  [PtrHint]  result hints:  [PtrHint] resumeThread(_u4WX::I64);
+           BaseReg = _u4WY::I64;
+           _u4X1::P64 = CurrentTSO;
+           _u4X2::P64 = I64[_u4X1::P64 + 24];
+           Sp = I64[_u4X2::P64 + 16];
+           SpLim = _u4X2::P64 + 192;
+           HpAlloc = 0;
+           _u4X3::I64 = CurrentNursery;
+           _u4X4::I64 = I64[_u4X3::I64 + 8];
+           Hp = _u4X4::I64 - 8;
+           _u4X5::I64 = I64[_u4X3::I64];
+           HpLim = _u4X5::I64 + ((%MO_SS_Conv_W32_W64(I32[_u4X3::I64 + 48]) << 12) - 1);
+           I64[_u4X1::P64 + 104] = I64[_u4X1::P64 + 104] + (_u4X4::I64 - _u4X5::I64);
+           call (I64[Sp])() returns to c4Wh, args: 8, res: 8, upd: 8;
+       c4Wh: // global
+           Hp = Hp + 24;
+           if (Hp > HpLim) (likely: False) goto c4WW; else goto c4WV;
+       c4WW: // global
+           HpAlloc = 24;
+           call stg_gc_noregs() returns to c4Wh, args: 8, res: 8, upd: 8;
+       c4WV: // global
+           I64[Hp - 16] = sat_info;
+           P64[Hp] = P64[Sp + 8];
+           R1 = Hp - 16;
+           Sp = Sp + 16;
+           call (P64[Sp])(R1) args: 8, res: 0, upd: 8;
+       c4WG: // global
+           R1 = badHead_closure;
+           Sp = Sp + 8;
+           call stg_ap_0_fast(R1) args: 8, res: 0, upd: 8;
+     }
+ }]
+
+
+==================== Output Cmm ====================
+2017-10-20 12:59:28.911048 UTC
+
+[section ""relreadonly" . S4XQ_srt" {
+     S4XQ_srt:
+         const external1_closure;
+ },
+ section ""data" . external_closure" {
+     external_closure:
+         const external_info;
+         const 0;
+         const 0;
+         const 0;
+ },
+ external_entry() //  [R1]
+         { info_tbl: [(c4XK,
+                       label: block_info
+                       rep:StackRep []),
+                      (c4XM,
+                       label: external_info
+                       rep:HeapRep static { Thunk })]
+           stack_info: arg_space: 8 updfr_space: Just 8
+         }
+     {offset
+       c4XM: // global
+           if ((Sp + -24) < SpLim) (likely: False) goto c4XN; else goto c4XO;
+       c4XN: // global
+           R1 = R1;
+           call (stg_gc_enter_1)(R1) args: 8, res: 0, upd: 8;
+       c4XO: // global
+           (_c4XH::I64) = call "ccall" arg hints:  [PtrHint,
+                                                    PtrHint]  result hints:  [PtrHint] newCAF(BaseReg, R1);
+           if (_c4XH::I64 == 0) goto c4XJ; else goto c4XI;
+       c4XJ: // global
+           call (I64[R1])() args: 8, res: 0, upd: 8;
+       c4XI: // global
+           I64[Sp - 16] = stg_bh_upd_frame_info;
+           I64[Sp - 8] = _c4XH::I64;
+           I64[Sp - 24] = c4XK;
+           Sp = Sp - 24;
+           call external1_info() returns to c4XK, args: 8, res: 8, upd: 24;
+       c4XK: // global
+           R1 = R1 & (-8);
+           Sp = Sp + 8;
+           call (I64[R1])(R1) args: 24, res: 0, upd: 24;
+     }
+ }]
+

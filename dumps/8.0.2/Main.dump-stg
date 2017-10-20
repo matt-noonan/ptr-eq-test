@@ -1,0 +1,110 @@
+
+==================== STG syntax: ====================
+2017-10-20 12:58:11.025187 UTC
+
+$trModule2 :: TrName = NO_CCS TrNameS! ["main"#];
+
+$trModule1 :: TrName = NO_CCS TrNameS! ["Main"#];
+
+$trModule :: Module = NO_CCS Module! [$trModule2 $trModule1];
+
+$tc'Box1 :: TrName = NO_CCS TrNameS! ["'Box"#];
+
+$tc'Box :: TyCon =
+    NO_CCS TyCon! [3131712011714945789##
+                   8815380752551364291##
+                   $trModule
+                   $tc'Box1];
+
+$tcBox1 :: TrName = NO_CCS TrNameS! ["Box"#];
+
+$tcBox :: TyCon =
+    NO_CCS TyCon! [2253243104280987293##
+                   12966491905552233425##
+                   $trModule
+                   $tcBox1];
+
+alfa :: [Int] = \u srt:SRT:[] [] eftInt 0# 0#;
+
+main3 :: State# RealWorld -> (# State# RealWorld, Bool #) =
+    \r srt:SRT:[0e :-> patError, rHe :-> alfa, rTl :-> badHead] [s]
+        case noDuplicate# [s] of s' {
+          __DEFAULT ->
+              case alfa of _ {
+                [] -> badHead;
+                : x _ ->
+                    case x of wild1 {
+                      I# ds ->
+                          case ds of _ {
+                            __DEFAULT -> patError "src/Main.hs:23:40-63|case"#;
+                            0# ->
+                                case __pkg_ccall_GC base-4.9.1.0 performMajorGC [s'] of _ {
+                                  Unit# ds3 ->
+                                      let {
+                                        sat :: Bool =
+                                            \u srt:SRT:[] []
+                                                case reallyUnsafePtrEquality# [wild1 wild1] of _ {
+                                                  __DEFAULT -> False [];
+                                                  1# -> True [];
+                                                };
+                                      } in  (#,#) [ds3 sat];
+                                };
+                          };
+                    };
+              };
+        };
+
+main2 :: String =
+    \u srt:SRT:[r2ne :-> shows17, r2nf :-> shows18, r4MO :-> main3] []
+        case main3 realWorld# of _ {
+          (#,#) _ ipv1 ->
+              case ipv1 of _ {
+                False -> shows18;
+                True -> shows17;
+              };
+        };
+
+main1 :: State# RealWorld -> (# State# RealWorld, () #) =
+    \r srt:SRT:[rPc :-> hPutStr2, rQr :-> stdout, r4MN :-> main2] [eta]
+        hPutStr2 stdout main2 True eta;
+
+main :: IO () = \r srt:SRT:[r4MM :-> main1] [eta] main1 eta;
+
+main4 :: State# RealWorld -> (# State# RealWorld, () #) =
+    \r srt:SRT:[r2ut :-> runMainIO1, r4MM :-> main1] [eta]
+        runMainIO1 main1 eta;
+
+main :: IO () = \r srt:SRT:[r4MP :-> main4] [eta] main4 eta;
+
+external1 :: State# RealWorld -> (# State# RealWorld, Bool #) =
+    \r srt:SRT:[0e :-> patError, rHe :-> alfa, rTl :-> badHead] [s]
+        case noDuplicate# [s] of s' {
+          __DEFAULT ->
+              case alfa of _ {
+                [] -> badHead;
+                : x _ ->
+                    case x of wild1 {
+                      I# ds ->
+                          case ds of _ {
+                            __DEFAULT -> patError "src/Main.hs:27:40-63|case"#;
+                            0# ->
+                                case __pkg_ccall_GC base-4.9.1.0 performMajorGC [s'] of _ {
+                                  Unit# ds3 ->
+                                      let {
+                                        sat :: Bool =
+                                            \u srt:SRT:[] []
+                                                case reallyUnsafePtrEquality# [wild1 wild1] of _ {
+                                                  __DEFAULT -> False [];
+                                                  1# -> True [];
+                                                };
+                                      } in  (#,#) [ds3 sat];
+                                };
+                          };
+                    };
+              };
+        };
+
+external :: Bool =
+    \u srt:SRT:[r4ML :-> external1] []
+        case external1 realWorld# of _ { (#,#) _ ipv1 -> ipv1; };
+
